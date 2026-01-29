@@ -19,36 +19,53 @@
         .hero h1 { font-size: 56px; font-weight: 700; margin-bottom: 15px; letter-spacing: -1.5px; }
         .hero p { font-size: 24px; color: var(--gray); font-weight: 400; }
 
-        .product-grid { max-width: 980px; margin: 40px auto; padding: 0 20px; display: grid; gap: 40px; }
+        .product-grid { max-width: 980px; margin: 40px auto; padding: 0 20px; }
         
         .product-row {
             display: flex;
             background: var(--light);
             border-radius: 30px;
             overflow: hidden;
-            min-height: 400px;
+            min-height: 450px;
             align-items: center;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.05);
         }
-        .product-content { flex: 1; padding: 60px; }
-        .product-visual { flex: 1; background: #e5e5ea; height: 100%; min-height: 400px; display: flex; align-items: center; justify-content: center; }
+        .product-content { flex: 1; padding: 80px; }
+        .product-visual { flex: 1; background: #e5e5ea; height: 100%; min-height: 450px; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
         
-        /* Simulated App Icons */
-        .app-icon { width: 120px; height: 120px; border-radius: 28px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
-        .icon-blue { background: linear-gradient(135deg, #0071e3, #00c6fb); }
-        .icon-dark { background: linear-gradient(135deg, #2c3e50, #000000); }
+        /* Background effect behind the logo */
+        .product-visual::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #e0e0e0 0%, #ffffff 100%);
+            opacity: 0.5;
+        }
 
-        .badge { font-size: 12px; font-weight: 700; color: #ef5602; letter-spacing: 0.5px; text-transform: uppercase; margin-bottom: 10px; display: block; }
-        h2 { font-size: 40px; line-height: 1.1; margin-bottom: 15px; font-weight: 700; letter-spacing: -0.5px; }
-        p.desc { font-size: 19px; color: var(--gray); margin-bottom: 30px; line-height: 1.4; max-width: 400px; }
+        /* App Icon Styling */
+        img.app-icon { 
+            width: 180px; 
+            height: 180px; 
+            border-radius: 40px; 
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15); 
+            z-index: 2;
+            object-fit: cover;
+        }
+
+        .badge { font-size: 12px; font-weight: 700; color: #ef5602; letter-spacing: 0.5px; text-transform: uppercase; margin-bottom: 15px; display: block; }
+        h2 { font-size: 48px; line-height: 1.05; margin-bottom: 20px; font-weight: 700; letter-spacing: -1px; }
+        p.desc { font-size: 21px; color: var(--gray); margin-bottom: 40px; line-height: 1.4; max-width: 420px; }
         
-        .btn-download { display: inline-block; background: var(--primary); color: #fff; padding: 10px 20px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500; }
-        .btn-download:hover { background: #0077ed; }
+        .btn-download { display: inline-block; background: var(--primary); color: #fff; padding: 14px 28px; border-radius: 30px; text-decoration: none; font-size: 16px; font-weight: 500; transition: transform 0.2s; }
+        .btn-download:hover { background: #0077ed; transform: scale(1.02); }
 
         @media (max-width: 768px) {
             .product-row { flex-direction: column-reverse; text-align: center; }
-            .product-visual { width: 100%; min-height: 250px; }
+            .product-visual { width: 100%; min-height: 300px; }
             .product-content { padding: 40px 20px; }
-            p.desc { margin: 0 auto 30px; }
+            p.desc { margin: 0 auto 30px; font-size: 18px; }
+            img.app-icon { width: 140px; height: 140px; border-radius: 30px; }
         }
 
         footer { background: var(--white); padding: 60px 20px; border-top: 1px solid #d2d2d7; }
@@ -70,8 +87,8 @@
 </nav>
 
 <div class="hero">
-    <h1>Apps tailored for you.</h1>
-    <p>Simple tools. Powerful results.</p>
+    <h1>Focus on what matters.</h1>
+    <p>Tools designed for fluency.</p>
 </div>
 
 <div class="product-grid">
@@ -79,24 +96,15 @@
     <div class="product-row">
         <div class="product-content">
             <span class="badge">Language Learning</span>
-            <h2>HearGlobal Suite</h2>
-            <p class="desc">The ultimate audio-first learning companion. Features spaced repetition and native dialogue analysis.</p>
-            <a href="#" class="btn-download">View details</a>
+            <h2>HearThai</h2>
+            <p class="desc">
+                Master the tonal nuances of the Thai language. 
+                Our audio-first approach helps you distinguish high, mid, low, rising, and falling tones with native precision.
+            </p>
+            <a href="#" class="btn-download">View on App Store</a>
         </div>
         <div class="product-visual">
-            <div class="app-icon icon-blue"></div>
-        </div>
-    </div>
-
-    <div class="product-row">
-        <div class="product-content">
-            <span class="badge">Utility</span>
-            <h2>Communicate Pro</h2>
-            <p class="desc">Instant phrase translation and dialect recognition for travelers and business professionals.</p>
-            <a href="#" class="btn-download">Coming Soon</a>
-        </div>
-        <div class="product-visual">
-            <div class="app-icon icon-dark"></div>
+            <img src="button.png" alt="HearThai App Logo" class="app-icon">
         </div>
     </div>
 
