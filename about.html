@@ -1,154 +1,67 @@
-<!-- FILE: /about.html -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>About • HearGlobal LLC</title>
-  <meta name="description" content="About HearGlobal LLC and our mission." />
-  <meta name="theme-color" content="#0b1220" />
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="assets/styles.css" />
-  <script defer src="assets/site.js"></script>
+  <title>HearGlobal LLC - About Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About HearGlobal LLC - Our mission and vision." />
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #f7f7f7; color: #333; margin: 0; padding: 0; display: flex; flex-direction: column; min-height: 100vh; }
+    .nav-bar { background: #fff; border-bottom: 1px solid #e5e5e5; padding: 0 20px; text-align: center; }
+    .nav-container { max-width: 720px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; height: 60px; }
+    .nav-brand { font-weight: 600; font-size: 18px; color: #000; text-decoration: none; }
+    .nav-links a { margin-left: 20px; font-size: 14px; color: #666; text-decoration: none; transition: color 0.2s; }
+    .nav-links a:hover, .nav-links a.active { color: #0066cc; }
+    .container { max-width: 720px; margin: 60px auto; background: #ffffff; padding: 60px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); flex: 1; }
+    h1 { margin-top: 0; font-size: 32px; font-weight: 700; letter-spacing: -0.5px; }
+    h2 { font-size: 20px; margin-top: 30px; font-weight: 600; color: #222; }
+    p { line-height: 1.6; color: #444; margin-bottom: 20px; }
+    footer { text-align: center; padding: 40px 20px; font-size: 12px; color: #888; }
+    footer a { color: #888; margin: 0 10px; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    @media (max-width: 600px) { .container { margin: 20px; padding: 30px; } .nav-container { flex-direction: column; height: auto; padding: 15px 0; } .nav-links { margin-top: 10px; } .nav-links a { margin: 0 8px; } }
+  </style>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="index.html" aria-label="HearGlobal home">
-        <span class="brand-mark" aria-hidden="true"></span>
-        <span class="brand-name">HearGlobal</span>
-        <span class="brand-suffix">LLC</span>
-      </a>
-
-      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle>
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-      </button>
-
-      <nav class="nav" data-nav>
-        <a class="nav-link" href="index.html">Home</a>
-        <a class="nav-link" href="products.html">Products</a>
-        <a class="nav-link" href="about.html" aria-current="page">About</a>
-        <a class="nav-link" href="contact.html">Contact</a>
-        <a class="nav-link nav-link-muted" href="privacy.html">Privacy</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main">
-    <section class="page-hero">
-      <div class="container">
-        <h1>About HearGlobal</h1>
-        <p class="lead">
-          HearGlobal LLC is a software company focused on developing mobile applications for language learning
-          and communication. Our products are built to help users improve comprehension and real-world usage
-          through practical, technology-driven solutions.
-        </p>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="grid-2">
-          <div class="card">
-            <h2>Mission</h2>
-            <p>
-              Build approachable mobile products that help people communicate more effectively in real-world situations.
-              We focus on clean user experience, high-quality audio, and content that supports practical learning.
-            </p>
-          </div>
-
-          <div class="card">
-            <h2>What we value</h2>
-            <ul class="bullet">
-              <li>Clarity and usability over complexity</li>
-              <li>Audio-first experiences for pronunciation and listening</li>
-              <li>Efficient content delivery and performance</li>
-              <li>Ongoing maintenance and iteration</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="section-spacer"></div>
-
-        <div class="card">
-          <h2>Company information</h2>
-          <div class="info-grid">
-            <div class="info-item">
-              <div class="info-label">Legal name</div>
-              <div class="info-value">HearGlobal LLC</div>
-            </div>
-            <div class="info-item">
-              <div class="info-label">Business address</div>
-              <div class="info-value">
-                1209 Mountain Road Pl NE, STE N<br />
-                Albuquerque, NM 87110
-              </div>
-            </div>
-            <div class="info-item">
-              <div class="info-label">Contact</div>
-              <div class="info-value">
-                <a href="mailto:contact@hearglobal.org">contact@hearglobal.org</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="mini-cta">
-            <a class="btn btn-primary" href="contact.html">Contact HearGlobal</a>
-            <a class="btn btn-secondary" href="products.html">View products</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="footer-cols">
-        <div>
-          <div class="footer-brand">
-            <span class="brand-mark" aria-hidden="true"></span>
-            <div>
-              <div class="footer-title">HearGlobal LLC</div>
-              <div class="muted">Mobile applications for language learning & communication.</div>
-            </div>
-          </div>
-
-          <div class="footer-meta">
-            <div class="muted">
-              HearGlobal LLC<br />
-              1209 Mountain Road Pl NE, STE N<br />
-              Albuquerque, NM 87110
-            </div>
-            <div class="muted">
-              Contact: <a href="mailto:contact@hearglobal.org">contact@hearglobal.org</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="footer-links">
-          <div class="footer-col">
-            <div class="footer-col-title">Company</div>
-            <a href="about.html">About</a>
-            <a href="products.html">Products</a>
-            <a href="contact.html">Contact</a>
-          </div>
-
-          <div class="footer-col">
-            <div class="footer-col-title">Legal</div>
-            <a href="privacy.html">Privacy Policy</a>
-            <a href="terms.html">Terms of Use</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        <div class="muted">© <span data-year></span> HearGlobal LLC. All rights reserved.</div>
+  <div class="nav-bar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">HearGlobal</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html" class="active">About</a>
+        <a href="contact.html">Contact</a>
       </div>
     </div>
+  </div>
+
+  <div class="container">
+    <h1>About Us</h1>
+    
+    <h2>Our Mission</h2>
+    <p>
+      At HearGlobal, our mission is to break down communication barriers through technology. We believe that listening is the foundation of language learning. Our tools are designed to prioritize audio comprehension, helping users navigate real-world conversations with confidence.
+    </p>
+
+    <h2>What We Do</h2>
+    <p>
+      We specialize in developing mobile applications for iOS and other platforms. Our team combines expertise in software engineering and linguistics to create products that are not only functional but also educational.
+    </p>
+
+    <h2>Our Values</h2>
+    <p>
+      <strong>Simplicity:</strong> We design clean, distraction-free interfaces.<br>
+      <strong>Privacy:</strong> We respect user data and prioritize secure, local processing.<br>
+      <strong>Accessibility:</strong> We strive to make language tools available to everyone.
+    </p>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 HearGlobal LLC. All rights reserved.</p>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
   </footer>
+
 </body>
 </html>
