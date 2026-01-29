@@ -1,76 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>HearGlobal LLC - Products</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="HearGlobal Mobile Applications." />
-  <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #f7f7f7; color: #333; margin: 0; padding: 0; display: flex; flex-direction: column; min-height: 100vh; }
-    .nav-bar { background: #fff; border-bottom: 1px solid #e5e5e5; padding: 0 20px; text-align: center; }
-    .nav-container { max-width: 720px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; height: 60px; }
-    .nav-brand { font-weight: 600; font-size: 18px; color: #000; text-decoration: none; }
-    .nav-links a { margin-left: 20px; font-size: 14px; color: #666; text-decoration: none; transition: color 0.2s; }
-    .nav-links a:hover, .nav-links a.active { color: #0066cc; }
-    .container { max-width: 720px; margin: 60px auto; background: #ffffff; padding: 60px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); flex: 1; }
-    h1 { margin-top: 0; font-size: 32px; font-weight: 700; letter-spacing: -0.5px; }
-    .product-card { border: 1px solid #eee; border-radius: 8px; padding: 24px; margin-top: 30px; display: flex; align-items: flex-start; }
-    .product-icon { width: 60px; height: 60px; background: #0066cc; border-radius: 14px; margin-right: 20px; flex-shrink: 0; }
-    .product-info h3 { margin: 0 0 8px 0; font-size: 18px; }
-    .product-info p { margin: 0; color: #555; font-size: 14px; line-height: 1.5; }
-    footer { text-align: center; padding: 40px 20px; font-size: 12px; color: #888; }
-    footer a { color: #888; margin: 0 10px; text-decoration: none; }
-    footer a:hover { text-decoration: underline; }
-    @media (max-width: 600px) { .container { margin: 20px; padding: 30px; } .nav-container { flex-direction: column; height: auto; padding: 15px 0; } .nav-links { margin-top: 10px; } .nav-links a { margin: 0 8px; } }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HearGlobal LLC - Products</title>
+    <style>
+        :root { --primary: #0071e3; --dark: #1d1d1f; --light: #f5f5f7; --white: #ffffff; --gray: #86868b; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--white); color: var(--dark); line-height: 1.5; }
+
+        nav { position: fixed; top: 0; width: 100%; background: rgba(255,255,255,0.8); backdrop-filter: blur(20px); z-index: 1000; border-bottom: 1px solid rgba(0,0,0,0.05); }
+        .nav-content { max-width: 980px; margin: 0 auto; height: 48px; display: flex; justify-content: space-between; align-items: center; padding: 0 20px; }
+        .logo { font-weight: 600; font-size: 18px; color: var(--dark); text-decoration: none; }
+        .nav-links a { font-size: 12px; color: var(--dark); text-decoration: none; margin-left: 24px; opacity: 0.8; transition: opacity 0.2s; }
+        .nav-links a:hover { opacity: 1; color: var(--primary); }
+
+        .hero { padding: 120px 20px 60px; text-align: center; }
+        .hero h1 { font-size: 56px; font-weight: 700; margin-bottom: 15px; letter-spacing: -1.5px; }
+        .hero p { font-size: 24px; color: var(--gray); font-weight: 400; }
+
+        .product-grid { max-width: 980px; margin: 40px auto; padding: 0 20px; display: grid; gap: 40px; }
+        
+        .product-row {
+            display: flex;
+            background: var(--light);
+            border-radius: 30px;
+            overflow: hidden;
+            min-height: 400px;
+            align-items: center;
+        }
+        .product-content { flex: 1; padding: 60px; }
+        .product-visual { flex: 1; background: #e5e5ea; height: 100%; min-height: 400px; display: flex; align-items: center; justify-content: center; }
+        
+        /* Simulated App Icons */
+        .app-icon { width: 120px; height: 120px; border-radius: 28px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        .icon-blue { background: linear-gradient(135deg, #0071e3, #00c6fb); }
+        .icon-dark { background: linear-gradient(135deg, #2c3e50, #000000); }
+
+        .badge { font-size: 12px; font-weight: 700; color: #ef5602; letter-spacing: 0.5px; text-transform: uppercase; margin-bottom: 10px; display: block; }
+        h2 { font-size: 40px; line-height: 1.1; margin-bottom: 15px; font-weight: 700; letter-spacing: -0.5px; }
+        p.desc { font-size: 19px; color: var(--gray); margin-bottom: 30px; line-height: 1.4; max-width: 400px; }
+        
+        .btn-download { display: inline-block; background: var(--primary); color: #fff; padding: 10px 20px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500; }
+        .btn-download:hover { background: #0077ed; }
+
+        @media (max-width: 768px) {
+            .product-row { flex-direction: column-reverse; text-align: center; }
+            .product-visual { width: 100%; min-height: 250px; }
+            .product-content { padding: 40px 20px; }
+            p.desc { margin: 0 auto 30px; }
+        }
+
+        footer { background: var(--white); padding: 60px 20px; border-top: 1px solid #d2d2d7; }
+        .footer-content { max-width: 980px; margin: 0 auto; font-size: 12px; color: var(--gray); display: flex; justify-content: space-between; }
+        .footer-content a { color: var(--dark); text-decoration: none; margin-left: 20px; }
+    </style>
 </head>
 <body>
 
-  <div class="nav-bar">
-    <div class="nav-container">
-      <a href="index.html" class="nav-brand">HearGlobal</a>
-      <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="products.html" class="active">Products</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-      </div>
+<nav>
+    <div class="nav-content">
+        <a href="index.html" class="logo">HearGlobal</a>
+        <div class="nav-links">
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
     </div>
-  </div>
+</nav>
 
-  <div class="container">
-    <h1>Our Products</h1>
-    <p>We build tools that empower users to learn efficiently.</p>
+<div class="hero">
+    <h1>Apps tailored for you.</h1>
+    <p>Simple tools. Powerful results.</p>
+</div>
 
-    <div class="product-card">
-      <div class="product-icon"></div>
-      <div class="product-info">
-        <h3>HearGlobal Language Suite</h3>
-        <p>
-          Our flagship mobile application designed for immersive audio learning. 
-          Features include spaced repetition, native speaker audio samples, 
-          and offline capability to let you learn anywhere.
-        </p>
-      </div>
+<div class="product-grid">
+    
+    <div class="product-row">
+        <div class="product-content">
+            <span class="badge">Language Learning</span>
+            <h2>HearGlobal Suite</h2>
+            <p class="desc">The ultimate audio-first learning companion. Features spaced repetition and native dialogue analysis.</p>
+            <a href="#" class="btn-download">View details</a>
+        </div>
+        <div class="product-visual">
+            <div class="app-icon icon-blue"></div>
+        </div>
     </div>
 
-    <div class="product-card">
-      <div class="product-icon" style="background: #333;"></div>
-      <div class="product-info">
-        <h3>Communication Assistant</h3>
-        <p>
-          A utility tool for travelers and learners to quickly access essential phrases 
-          and understand local dialects through advanced speech recognition integration.
-        </p>
-      </div>
+    <div class="product-row">
+        <div class="product-content">
+            <span class="badge">Utility</span>
+            <h2>Communicate Pro</h2>
+            <p class="desc">Instant phrase translation and dialect recognition for travelers and business professionals.</p>
+            <a href="#" class="btn-download">Coming Soon</a>
+        </div>
+        <div class="product-visual">
+            <div class="app-icon icon-dark"></div>
+        </div>
     </div>
-  </div>
 
-  <footer>
-    <p>&copy; 2026 HearGlobal LLC. All rights reserved.</p>
-    <a href="privacy.html">Privacy Policy</a>
-    <a href="terms.html">Terms of Service</a>
-  </footer>
+</div>
+
+<footer>
+    <div class="footer-content">
+        <span>© 2026 HearGlobal LLC.</span>
+        <div>
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>
