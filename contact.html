@@ -1,0 +1,183 @@
+<!-- FILE: /contact.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact • HearGlobal LLC</title>
+  <meta name="description" content="Contact HearGlobal LLC for support, business inquiries, and general questions." />
+  <meta name="theme-color" content="#0b1220" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="HearGlobal home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">HearGlobal</span>
+        <span class="brand-suffix">LLC</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav class="nav" data-nav>
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="products.html">Products</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="contact.html" aria-current="page">Contact</a>
+        <a class="nav-link nav-link-muted" href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Contact</h1>
+        <p class="lead">
+          For support, business inquiries, or general questions, contact us using the form below or email us directly:
+          <a href="mailto:contact@hearglobal.org">contact@hearglobal.org</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid-2">
+          <section class="card">
+            <h2>Send a message</h2>
+            <p class="muted">
+              This form creates a properly formatted email message to HearGlobal (no account required).
+            </p>
+
+            <form class="form" id="contactForm" novalidate>
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" autocomplete="name" required />
+              </div>
+
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required />
+              </div>
+
+              <div class="field">
+                <label for="topic">Topic</label>
+                <select id="topic" name="topic" required>
+                  <option value="">Select a topic</option>
+                  <option value="Support">Support</option>
+                  <option value="Business Inquiry">Business Inquiry</option>
+                  <option value="Privacy">Privacy</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+              </div>
+
+              <div class="form-actions">
+                <button class="btn btn-primary" type="submit">Send</button>
+                <a class="btn btn-secondary" href="mailto:contact@hearglobal.org">Email directly</a>
+              </div>
+
+              <p class="form-hint muted">
+                If your email client does not open automatically, email us at
+                <a href="mailto:contact@hearglobal.org">contact@hearglobal.org</a>.
+              </p>
+            </form>
+          </section>
+
+          <aside class="card">
+            <h2>Company details</h2>
+
+            <div class="info-grid">
+              <div class="info-item">
+                <div class="info-label">Email</div>
+                <div class="info-value"><a href="mailto:contact@hearglobal.org">contact@hearglobal.org</a></div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-label">Business address</div>
+                <div class="info-value">
+                  HearGlobal LLC<br />
+                  1209 Mountain Road Pl NE<br />
+                  STE N<br />
+                  Albuquerque, NM 87110
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-label">Response</div>
+                <div class="info-value">We respond as quickly as possible.</div>
+              </div>
+            </div>
+
+            <div class="notice">
+              <div class="notice-title">Support tips</div>
+              <div class="notice-body">
+                Include your device model, iOS version, and steps to reproduce the issue.
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-cols">
+        <div>
+          <div class="footer-brand">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <div>
+              <div class="footer-title">HearGlobal LLC</div>
+              <div class="muted">Mobile applications for language learning & communication.</div>
+            </div>
+          </div>
+
+          <div class="footer-meta">
+            <div class="muted">
+              HearGlobal LLC<br />
+              1209 Mountain Road Pl NE, STE N<br />
+              Albuquerque, NM 87110
+            </div>
+            <div class="muted">
+              Contact: <a href="mailto:contact@hearglobal.org">contact@hearglobal.org</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-col">
+            <div class="footer-col-title">Company</div>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+          </div>
+
+          <div class="footer-col">
+            <div class="footer-col-title">Legal</div>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Use</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="muted">© <span data-year></span> HearGlobal LLC. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
