@@ -1,157 +1,76 @@
-<!-- FILE: /products.html -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Products • HearGlobal LLC</title>
-  <meta name="description" content="HearGlobal LLC products and mobile applications." />
-  <meta name="theme-color" content="#0b1220" />
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="assets/styles.css" />
-  <script defer src="assets/site.js"></script>
+  <title>HearGlobal LLC - Products</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="HearGlobal Mobile Applications." />
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #f7f7f7; color: #333; margin: 0; padding: 0; display: flex; flex-direction: column; min-height: 100vh; }
+    .nav-bar { background: #fff; border-bottom: 1px solid #e5e5e5; padding: 0 20px; text-align: center; }
+    .nav-container { max-width: 720px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; height: 60px; }
+    .nav-brand { font-weight: 600; font-size: 18px; color: #000; text-decoration: none; }
+    .nav-links a { margin-left: 20px; font-size: 14px; color: #666; text-decoration: none; transition: color 0.2s; }
+    .nav-links a:hover, .nav-links a.active { color: #0066cc; }
+    .container { max-width: 720px; margin: 60px auto; background: #ffffff; padding: 60px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); flex: 1; }
+    h1 { margin-top: 0; font-size: 32px; font-weight: 700; letter-spacing: -0.5px; }
+    .product-card { border: 1px solid #eee; border-radius: 8px; padding: 24px; margin-top: 30px; display: flex; align-items: flex-start; }
+    .product-icon { width: 60px; height: 60px; background: #0066cc; border-radius: 14px; margin-right: 20px; flex-shrink: 0; }
+    .product-info h3 { margin: 0 0 8px 0; font-size: 18px; }
+    .product-info p { margin: 0; color: #555; font-size: 14px; line-height: 1.5; }
+    footer { text-align: center; padding: 40px 20px; font-size: 12px; color: #888; }
+    footer a { color: #888; margin: 0 10px; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    @media (max-width: 600px) { .container { margin: 20px; padding: 30px; } .nav-container { flex-direction: column; height: auto; padding: 15px 0; } .nav-links { margin-top: 10px; } .nav-links a { margin: 0 8px; } }
+  </style>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="index.html" aria-label="HearGlobal home">
-        <span class="brand-mark" aria-hidden="true"></span>
-        <span class="brand-name">HearGlobal</span>
-        <span class="brand-suffix">LLC</span>
-      </a>
-
-      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle>
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-      </button>
-
-      <nav class="nav" data-nav>
-        <a class="nav-link" href="index.html">Home</a>
-        <a class="nav-link" href="products.html" aria-current="page">Products</a>
-        <a class="nav-link" href="about.html">About</a>
-        <a class="nav-link" href="contact.html">Contact</a>
-        <a class="nav-link nav-link-muted" href="privacy.html">Privacy</a>
-      </nav>
+  <div class="nav-bar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">HearGlobal</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html" class="active">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
     </div>
-  </header>
+  </div>
 
-  <main id="main">
-    <section class="page-hero">
-      <div class="container">
-        <h1>Products</h1>
-        <p class="lead">
-          HearGlobal LLC develops mobile applications focused on language learning and communication.
-          We prioritize clean UX, audio-based learning, and practical real-world usage.
+  <div class="container">
+    <h1>Our Products</h1>
+    <p>We build tools that empower users to learn efficiently.</p>
+
+    <div class="product-card">
+      <div class="product-icon"></div>
+      <div class="product-info">
+        <h3>HearGlobal Language Suite</h3>
+        <p>
+          Our flagship mobile application designed for immersive audio learning. 
+          Features include spaced repetition, native speaker audio samples, 
+          and offline capability to let you learn anywhere.
         </p>
       </div>
-    </section>
+    </div>
 
-    <section class="section">
-      <div class="container">
-        <div class="grid-2">
-          <article class="product card">
-            <div class="product-top">
-              <div class="product-badge">Language Learning</div>
-              <h2>HearThai (iOS)</h2>
-              <p class="muted">
-                A Thai language learning application designed to help users improve listening, comprehension,
-                and pronunciation through structured content and practical examples.
-              </p>
-            </div>
-            <div class="product-details">
-              <ul class="bullet">
-                <li>Audio-first content</li>
-                <li>Vocabulary and phrases</li>
-                <li>Practical, real-world learning focus</li>
-              </ul>
-            </div>
-            <div class="product-actions">
-              <a class="btn btn-secondary" href="contact.html">Request support</a>
-              <a class="btn btn-primary" href="mailto:contact@hearglobal.org?subject=HearThai%20-%20Inquiry">Contact sales</a>
-            </div>
-          </article>
-
-          <article class="product card">
-            <div class="product-top">
-              <div class="product-badge">Communication Tools</div>
-              <h2>Future products</h2>
-              <p class="muted">
-                We are building additional mobile applications in the language learning and communication space.
-                For product inquiries, partnerships, or business matters, contact us.
-              </p>
-            </div>
-            <div class="product-details">
-              <ul class="bullet">
-                <li>Mobile-first experiences</li>
-                <li>High-quality content delivery</li>
-                <li>Iterative improvements and maintenance</li>
-              </ul>
-            </div>
-            <div class="product-actions">
-              <a class="btn btn-primary" href="contact.html">Contact us</a>
-              <a class="btn btn-secondary" href="about.html">About HearGlobal</a>
-            </div>
-          </article>
-        </div>
-
-        <div class="notice">
-          <div class="notice-title">Support</div>
-          <div class="notice-body">
-            For support requests, include your device model, iOS version, and a short description of the issue.
-            Email: <a href="mailto:contact@hearglobal.org">contact@hearglobal.org</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="footer-cols">
-        <div>
-          <div class="footer-brand">
-            <span class="brand-mark" aria-hidden="true"></span>
-            <div>
-              <div class="footer-title">HearGlobal LLC</div>
-              <div class="muted">Mobile applications for language learning & communication.</div>
-            </div>
-          </div>
-
-          <div class="footer-meta">
-            <div class="muted">
-              HearGlobal LLC<br />
-              1209 Mountain Road Pl NE, STE N<br />
-              Albuquerque, NM 87110
-            </div>
-            <div class="muted">
-              Contact: <a href="mailto:contact@hearglobal.org">contact@hearglobal.org</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="footer-links">
-          <div class="footer-col">
-            <div class="footer-col-title">Company</div>
-            <a href="about.html">About</a>
-            <a href="products.html">Products</a>
-            <a href="contact.html">Contact</a>
-          </div>
-
-          <div class="footer-col">
-            <div class="footer-col-title">Legal</div>
-            <a href="privacy.html">Privacy Policy</a>
-            <a href="terms.html">Terms of Use</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        <div class="muted">© <span data-year></span> HearGlobal LLC. All rights reserved.</div>
+    <div class="product-card">
+      <div class="product-icon" style="background: #333;"></div>
+      <div class="product-info">
+        <h3>Communication Assistant</h3>
+        <p>
+          A utility tool for travelers and learners to quickly access essential phrases 
+          and understand local dialects through advanced speech recognition integration.
+        </p>
       </div>
     </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 HearGlobal LLC. All rights reserved.</p>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
   </footer>
+
 </body>
 </html>
