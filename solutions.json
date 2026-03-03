@@ -153,7 +153,7 @@
                            "prompt":  "How many red items?",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 1 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "There is exactly 1 red square. Tap 1 time."
                        },
                        {
                            "isInfo":  false,
@@ -165,7 +165,7 @@
                            "prompt":  "How many blue items?",
                            "target":  1,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 1."
+                           "explanation":  "There are zero blue items. However, the Vintage Carnival Ticket adds +1. 0 + 1 = 1 tap."
                        },
                        {
                            "isInfo":  true,
@@ -177,7 +177,7 @@
                            "prompt":  "\"Red\" equals two taps.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "This is an informational round. No tapping required, just read the prompt and advance."
+                           "explanation":  "Info round establishes a rule: the word \u0027Red\u0027 mathematically equals two taps."
                        },
                        {
                            "isInfo":  false,
@@ -196,7 +196,7 @@
                            "prompt":  "Count the red items.",
                            "target":  2,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 2 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "Count the physical red items. Two red circles means 2 items. Tap 2 times."
                        },
                        {
                            "isInfo":  false,
@@ -208,7 +208,7 @@
                            "prompt":  "Four add one.",
                            "target":  6,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 6."
+                           "explanation":  "Four add one equals 5. The Vintage Carnival Ticket (+1) makes it 6."
                        },
                        {
                            "isInfo":  true,
@@ -220,7 +220,7 @@
                            "prompt":  "Add means Subtract.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "This is an informational round. No tapping required, just read the prompt and advance."
+                           "explanation":  "Info round establishes a chaotic rule: \u0027Add means Subtract\u0027."
                        },
                        {
                            "isInfo":  false,
@@ -232,7 +232,7 @@
                            "prompt":  "\"Red\" add one.",
                            "target":  2,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 2."
+                           "explanation":  "The prompt says: \u0027Red\u0027 add one. \u0027Red\u0027 means 2 (from Round 3). \u0027Add\u0027 means Subtract (from Round 6). So: 2 - 1 = 1. The Vintage Carnival Ticket (+1) brings it back to 2!"
                        },
                        {
                            "isInfo":  false,
@@ -244,7 +244,7 @@
                            "prompt":  "Two add zero.",
                            "target":  2,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 2 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "Two add zero. \u0027Add\u0027 means Subtract. 2 - 0 = 2. Tap 2 times."
                        },
                        {
                            "isInfo":  true,
@@ -256,7 +256,7 @@
                            "prompt":  "\"Red\" equals zero taps.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "This is an informational round. No tapping required, just read the prompt and advance."
+                           "explanation":  "Info round establishes a rule override: \u0027Red\u0027 now equals zero taps."
                        },
                        {
                            "isInfo":  false,
@@ -268,7 +268,7 @@
                            "prompt":  "\"Red\" add zero.",
                            "target":  1,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 1."
+                           "explanation":  "The prompt asks for \u0027Red\u0027 add zero. \u0027Red\u0027 means 0 (from Round 9). \u0027Add\u0027 means subtract. 0 - 0 = 0. The Vintage Carnival Ticket (+1) brings the final answer to 1."
                        }
                    ]
     },
@@ -3013,7 +3013,7 @@
                            "prompt":  "How many blue shapes?",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 1 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "The prompt asks for blue shapes. There is exactly 1 blue circle. Tap 1 time."
                        },
                        {
                            "isInfo":  false,
@@ -3032,7 +3032,7 @@
                            "prompt":  "How many red shapes?",
                            "target":  1,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 1."
+                           "explanation":  "The prompt asks for red shapes. There are none (0). But the Vintage Carnival Ticket adds +1. 0 + 1 = 1 tap."
                        },
                        {
                            "isInfo":  true,
@@ -3044,7 +3044,7 @@
                            "prompt":  "Green means two.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "This is an informational round. No tapping required, just read the prompt and advance."
+                           "explanation":  "Info round establishes a rule: \u0027Green means two\u0027. This alters how the color green is interpreted mathematically."
                        },
                        {
                            "isInfo":  false,
@@ -3067,7 +3067,7 @@
                            "prompt":  "Count the green shapes.",
                            "target":  2,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 2 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "The prompt asks to count \u0027green\u0027 shapes. Based on Round 3, the word \u0027green\u0027 literally means \u0027two\u0027. Ignoring the screen icons completely, the answer is exactly 2."
                        },
                        {
                            "isInfo":  false,
@@ -3086,7 +3086,7 @@
                            "prompt":  "Count all shapes.",
                            "target":  3,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 3 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "The prompt says \u0027Count all shapes\u0027. There is 1 red circle and 1 green circle. That\u0027s 2 shapes total."
                        },
                        {
                            "isInfo":  false,
@@ -3105,7 +3105,7 @@
                            "prompt":  "How many total shapes?",
                            "target":  3,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 3."
+                           "explanation":  "There are 2 shapes total (one red star, one blue star). The Vintage Carnival Ticket adds +1, making the final count 3."
                        },
                        {
                            "isInfo":  true,
@@ -3117,7 +3117,7 @@
                            "prompt":  "Ignore all blue objects.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "This is an informational round. No tapping required, just read the prompt and advance."
+                           "explanation":  "Info round establishes a new rule: \u0027Ignore all blue objects\u0027."
                        },
                        {
                            "isInfo":  false,
@@ -3132,7 +3132,7 @@
                            "prompt":  "Count the blue circles.",
                            "target":  1,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 1."
+                           "explanation":  "The prompt says \u0027Count the blue circles\u0027. But Round 7 says to ignore blue objects, making our count 0. The Vintage Carnival Ticket adds +1, making the final answer 1."
                        },
                        {
                            "isInfo":  false,
@@ -3155,7 +3155,7 @@
                            "prompt":  "How many total shapes?",
                            "target":  3,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 3 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "A deeply compounding round! We must ignore the blue star (Round 7 rule). We have 1 red star, and the single green star counts as 2 (Round 3 rule \u0027Green means two\u0027). 1 + 2 = 3 taps!"
                        },
                        {
                            "isInfo":  false,
@@ -3167,7 +3167,7 @@
                            "prompt":  "Tap exactly one time.",
                            "target":  2,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 2."
+                           "explanation":  "The prompt says to tap exactly one time. The Vintage Carnival Ticket adds +1, making it 2 taps."
                        }
                    ]
     },
@@ -4080,7 +4080,7 @@
                            "prompt":  "Count the square.",
                            "target":  2,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 2."
+                           "explanation":  "Count the square. There is 1 square + Vintage Carnival Ticket (+1) = 2 taps."
                        },
                        {
                            "isInfo":  true,
@@ -4092,7 +4092,7 @@
                            "prompt":  "Do not read past a period.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "This is an informational round. No tapping required, just read the prompt and advance."
+                           "explanation":  "Info round establishing a tricky rule: \u0027Do not read past a period.\u0027"
                        },
                        {
                            "isInfo":  false,
@@ -4111,7 +4111,7 @@
                            "prompt":  "How many total items?",
                            "target":  3,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 3."
+                           "explanation":  "How many total items? There are 2 shapes total. Vintage Carnival Ticket (+1) makes it 3."
                        },
                        {
                            "isInfo":  false,
@@ -4123,7 +4123,7 @@
                            "prompt":  "Do not not tap 1 time.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 1 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "A double negative: \u0027Do not not tap 1 time\u0027 simply means \u0027tap 1 time\u0027. 1 tap."
                        },
                        {
                            "isInfo":  false,
@@ -4135,7 +4135,7 @@
                            "prompt":  "Tap 2. times 2.",
                            "target":  3,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 3."
+                           "explanation":  "The prompt is \u0027Tap 2. times 2.\u0027. The rule from Round 2 means we stop reading at the period! The prompt effectively becomes \u0027Tap 2\u0027. The Vintage Carnival Ticket (+1) makes it 3."
                        },
                        {
                            "isInfo":  false,
@@ -4158,7 +4158,7 @@
                            "prompt":  "Count the red circles.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 1 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "Count the red circles. There is exactly 1 red circle. Tap 1 time."
                        },
                        {
                            "isInfo":  true,
@@ -4170,7 +4170,7 @@
                            "prompt":  "Half means double.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "This is an informational round. No tapping required, just read the prompt and advance."
+                           "explanation":  "Info round establishing a rule inversion: \u0027Half means double\u0027."
                        },
                        {
                            "isInfo":  false,
@@ -4182,7 +4182,7 @@
                            "prompt":  "Tap zero times.",
                            "target":  1,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 1."
+                           "explanation":  "Tap zero times. 0 + Vintage Carnival Ticket (+1) = 1."
                        },
                        {
                            "isInfo":  false,
@@ -4194,7 +4194,7 @@
                            "prompt":  "Half of four.",
                            "target":  8,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 8 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "The prompt says \u0027Half of four\u0027. Because \u0027half means double\u0027, you must find the double of four. Tap 8 times."
                        },
                        {
                            "isInfo":  false,
@@ -4206,7 +4206,7 @@
                            "prompt":  "Three plus half of two.",
                            "target":  7,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 7 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "The prompt asks for \u0027Three plus half of two.\u0027 Since half means double, the double of two is 4. 3 + 4 = 7."
                        }
                    ]
     },
@@ -5489,7 +5489,7 @@
                            "prompt":  "Tap 1 time.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 1 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "Simply tap 1 time."
                        },
                        {
                            "isInfo":  false,
@@ -5501,7 +5501,7 @@
                            "prompt":  "Tap 2 times.",
                            "target":  2,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 2 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "Simply tap 2 times."
                        },
                        {
                            "isInfo":  false,
@@ -5513,7 +5513,7 @@
                            "prompt":  "Tap 3 times.",
                            "target":  3,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 3 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "Simply tap 3 times."
                        },
                        {
                            "isInfo":  true,
@@ -5525,7 +5525,7 @@
                            "prompt":  "If the answer is four, tap zero.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "This is an informational round. No tapping required, just read the prompt and advance."
+                           "explanation":  "Info round establishing a strict rule: \u0027If the answer is four, tap zero\u0027."
                        },
                        {
                            "isInfo":  false,
@@ -5537,7 +5537,7 @@
                            "prompt":  "Tap 4 times.",
                            "target":  0,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 0 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "The prompt says to tap 4 times. Due to the rule in Round 4, this immediately becomes 0."
                        },
                        {
                            "isInfo":  false,
@@ -5549,7 +5549,7 @@
                            "prompt":  "Tap 3 times.",
                            "target":  0,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 0."
+                           "explanation":  "The prompt says to tap 3 times. The Vintage Carnival Ticket wildcard adds +1, making the preliminary answer 4. Our Info rule triggers, making the final answer exactly 0!"
                        },
                        {
                            "isInfo":  false,
@@ -5561,7 +5561,7 @@
                            "prompt":  "Tap 5 times.",
                            "target":  5,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 5 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "The prompt asks for 5 taps. This doesn\u0027t hit our rule, so tap 5 times."
                        },
                        {
                            "isInfo":  false,
@@ -5573,7 +5573,7 @@
                            "prompt":  "Tap 3 times.",
                            "target":  0,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 0."
+                           "explanation":  "Tap 3 times. The Vintage Carnival Ticket makes it 4. Our rule triggers again: 4 becomes 0."
                        },
                        {
                            "isInfo":  false,
@@ -5585,7 +5585,7 @@
                            "prompt":  "Tap 4 times.",
                            "target":  5,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 5."
+                           "explanation":  "Tap 4 times. The Vintage Carnival Ticket makes it 5. Because the preliminary answer jumped past 4 to 5, our Info rule is completely bypassed. Tap 5 times."
                        },
                        {
                            "isInfo":  false,
@@ -5597,7 +5597,7 @@
                            "prompt":  "Tap 2 times.",
                            "target":  3,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 3."
+                           "explanation":  "Tap 2 times. The Vintage Carnival Ticket makes it 3. Tap 3 times."
                        }
                    ]
     },
@@ -8020,7 +8020,7 @@
                            "prompt":  "Apply what you remember about wildcards.",
                            "target":  null,
                            "wildcardId":  0,
-                           "explanation":  "This is an informational round. No tapping required, just read the prompt and advance."
+                           "explanation":  "Informational round reminding you to consider active Wildcards."
                        },
                        {
                            "isInfo":  false,
@@ -8035,7 +8035,7 @@
                            "prompt":  "Tap twice.",
                            "target":  3,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 3."
+                           "explanation":  "The prompt asks for 2 taps, but the Vintage Carnival Ticket wildcard is active! It always adds +1 to your count, making it 3."
                        },
                        {
                            "isInfo":  false,
@@ -8058,7 +8058,7 @@
                            "prompt":  "How many red squares?",
                            "target":  4,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 4."
+                           "explanation":  "There are 3 red squares on the screen. However, the Vintage Carnival Ticket adds +1 to your count. 3 + 1 = 4 taps."
                        },
                        {
                            "isInfo":  false,
@@ -8073,7 +8073,7 @@
                            "prompt":  "Tap half a dozen times.",
                            "target":  6,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 6 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "Half a dozen is 6. There\u0027s a green star, but the prompt doesn\u0027t ask about it, and no wildcard is active. Tap 6 times."
                        },
                        {
                            "isInfo":  false,
@@ -8096,7 +8096,7 @@
                            "prompt":  "Count the blue triangles.",
                            "target":  3,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 3."
+                           "explanation":  "There are exactly 2 blue triangles. The Vintage Carnival Ticket adds +1. 2 + 1 = 3 taps."
                        },
                        {
                            "isInfo":  false,
@@ -8111,7 +8111,7 @@
                            "prompt":  "Tap more than three times.",
                            "target":  3,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 3 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "The prompt simply says to tap \u0027more than three times\u0027. Since the target threshold is 3, tapping anything above 3 passes the system test."
                        },
                        {
                            "isInfo":  false,
@@ -8138,7 +8138,7 @@
                            "prompt":  "Tap the number of shapes.",
                            "target":  4,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 4 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "There are exactly 4 green shapes on the screen. No wildcard active, so the answer is 4."
                        },
                        {
                            "isInfo":  false,
@@ -8165,7 +8165,7 @@
                            "prompt":  "How many shapes are there?",
                            "target":  5,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 5."
+                           "explanation":  "There are exactly 4 red hearts. The Vintage Carnival Ticket is active, adding +1. 4 + 1 = 5 taps."
                        },
                        {
                            "isInfo":  false,
@@ -8180,7 +8180,7 @@
                            "prompt":  "Tap less than two times.",
                            "target":  2,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 2 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "The prompt says \u0027less than two times\u0027. With no wildcard active, tapping anything below 2 passes the threshold."
                        },
                        {
                            "isInfo":  false,
@@ -8195,7 +8195,7 @@
                            "prompt":  "A single tap.",
                            "target":  2,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 2."
+                           "explanation":  "The prompt asks for a single tap (1). The Vintage Carnival Ticket wildcard adds +1. 1 + 1 = 2 taps."
                        }
                    ]
     },
@@ -8836,7 +8836,7 @@
                            "prompt":  "Sometimes we will use icons to help you... or to trick you.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "This is an informational round. No tapping required, just read the prompt and advance."
+                           "explanation":  "This is an informational round introducing icons. Advance without tapping."
                        },
                        {
                            "isInfo":  false,
@@ -8859,7 +8859,7 @@
                            "prompt":  "Count the circles.",
                            "target":  3,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 3 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "There are exactly 3 blue circles on the screen. Count them and tap 3 times."
                        },
                        {
                            "isInfo":  false,
@@ -8882,7 +8882,7 @@
                            "prompt":  "Count the red items.",
                            "target":  2,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 2 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "There are three objects, but only 2 of them are red (a square and a triangle). Tap 2 times."
                        },
                        {
                            "isInfo":  false,
@@ -8901,7 +8901,7 @@
                            "prompt":  "How many squares are green?",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 1 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "There are two squares, but only 1 of them is green. Tap 1 time."
                        },
                        {
                            "isInfo":  false,
@@ -8928,7 +8928,7 @@
                            "prompt":  "Tap for each green star.",
                            "target":  4,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 4 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "There are exactly 4 green stars on the screen. Count them and tap 4 times."
                        },
                        {
                            "isInfo":  false,
@@ -8959,7 +8959,7 @@
                            "prompt":  "Tap the number of words in this sentence.",
                            "target":  8,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 8 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "The text says \u0027Tap the number of words in this sentence.\u0027 There are 8 words. Ignore the lightbulbs!"
                        },
                        {
                            "isInfo":  false,
@@ -8986,7 +8986,7 @@
                            "prompt":  "Count the hearts.",
                            "target":  2,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 2 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "There are two hearts (favorite_outline) and two triangles. Only count the hearts: 2 taps."
                        },
                        {
                            "isInfo":  false,
@@ -9013,7 +9013,7 @@
                            "prompt":  "How many circles?",
                            "target":  2,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 2 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "There are two circles (both green). The other shapes are a square and a triangle. Tap exactly 2 times."
                        },
                        {
                            "isInfo":  false,
@@ -9036,7 +9036,7 @@
                            "prompt":  "Count the circles, then add two.",
                            "target":  4,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 4 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "There are 2 red circles on the screen. The prompt says to \u0027count the circles, then add two\u0027. 2 + 2 = 4 taps."
                        },
                        {
                            "isInfo":  false,
@@ -9059,7 +9059,7 @@
                            "prompt":  "Tap for every timer.",
                            "target":  2,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 2 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "There are 3 icons, but only 2 of them are actual timers (one blue, one green). Tap exactly 2 times."
                        }
                    ]
     },
@@ -9584,7 +9584,7 @@
                            "prompt":  "Give it two quick taps.",
                            "target":  2,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 2 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "The prompt clearly asks for two taps. There are no wildcards or extra rules, so the answer is exactly 2."
                        },
                        {
                            "isInfo":  false,
@@ -9596,7 +9596,7 @@
                            "prompt":  "What is 2 + 3?",
                            "target":  5,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 5 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "Simple math: 2 + 3 equals 5. Tap 5 times."
                        },
                        {
                            "isInfo":  false,
@@ -9608,7 +9608,7 @@
                            "prompt":  "Just one more tap.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 1 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "The text says \u0027one more tap\u0027, meaning exactly 1 tap."
                        },
                        {
                            "isInfo":  false,
@@ -9620,7 +9620,7 @@
                            "prompt":  "Exactly four taps.\n(Easy, isn\u0027t it?)",
                            "target":  4,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 4 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "The prompt literally says \u0027exactly four taps\u0027, so tap 4 times."
                        },
                        {
                            "isInfo":  false,
@@ -9632,7 +9632,7 @@
                            "prompt":  "Tap a trio of times.",
                            "target":  3,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 3 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "A trio means three items. Tap exactly 3 times."
                        },
                        {
                            "isInfo":  false,
@@ -9644,7 +9644,7 @@
                            "prompt":  "What is 7 minus 6?",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 1 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "Basic math operation: 7 minus 6 is 1. Tap 1 time."
                        },
                        {
                            "isInfo":  false,
@@ -9656,7 +9656,7 @@
                            "prompt":  "Tap half a dozen times.",
                            "target":  6,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 6 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "Half a dozen is 6. Tap exactly 6 times."
                        },
                        {
                            "isInfo":  false,
@@ -9668,7 +9668,7 @@
                            "prompt":  "Ten minus eight?",
                            "target":  2,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 2 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "Math operation: 10 minus 8 is 2. Tap 2 times."
                        },
                        {
                            "isInfo":  false,
@@ -9680,7 +9680,7 @@
                            "prompt":  "Five taps to finish.",
                            "target":  5,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 5 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "The prompt formally states \u0027Five taps to finish\u0027. Tap 5 times."
                        }
                    ]
     },
@@ -9700,7 +9700,7 @@
                            "prompt":  "Tap ONE time.",
                            "target":  2,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 2."
+                           "explanation":  "The prompt asks for ONE tap. The Vintage Carnival Ticket wildcard adds +1. 1 + 1 = 2 taps."
                        },
                        {
                            "isInfo":  true,
@@ -9712,7 +9712,7 @@
                            "prompt":  "Only trust the text.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "This is an informational round. No tapping required, just read the prompt and advance."
+                           "explanation":  "Info round establishing a focus rule: \u0027Only trust the text.\u0027 (Ignore all physical icons)."
                        },
                        {
                            "isInfo":  false,
@@ -9727,7 +9727,7 @@
                            "prompt":  "How many blue shapes?",
                            "target":  0,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 0 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "How many blue shapes? The text asks about blue shapes, but since we are ignoring icons completely, we see 0. Target is 0."
                        },
                        {
                            "isInfo":  false,
@@ -9746,7 +9746,7 @@
                            "prompt":  "How many green items?",
                            "target":  1,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 1."
+                           "explanation":  "How many green items? Since we ignore icons, there are 0. The Vintage Carnival Ticket wildcard adds +1. Target is 1."
                        },
                        {
                            "isInfo":  false,
@@ -9758,7 +9758,7 @@
                            "prompt":  "Tap 3 + 4 - 2 times.",
                            "target":  5,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 5 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "Math operation: 3 + 4 - 2 = 5. Tap 5 times."
                        },
                        {
                            "isInfo":  true,
@@ -9770,7 +9770,7 @@
                            "prompt":  "If you see a circle, subtract one.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "This is an informational round. No tapping required, just read the prompt and advance."
+                           "explanation":  "Info round establishing a conditional rule: \u0027If you see a circle, subtract one.\u0027"
                        },
                        {
                            "isInfo":  false,
@@ -9782,7 +9782,7 @@
                            "prompt":  "Tap 5 times.",
                            "target":  6,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 6."
+                           "explanation":  "The prompt says to tap 5 times. There are no circles shown, so no subtraction. The Vintage Carnival Ticket (+1) brings it to 6."
                        },
                        {
                            "isInfo":  false,
@@ -9794,7 +9794,7 @@
                            "prompt":  "Tap 3 + 4 - 2 times.",
                            "target":  5,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 5 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "Math operation: 3 + 4 - 2 = 5. Still no circles shown, so target remains 5."
                        },
                        {
                            "isInfo":  false,
@@ -9809,7 +9809,7 @@
                            "prompt":  "Tap three times.",
                            "target":  2,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 2 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "The prompt asks for 3 taps. The icons visually display a blue circle! Our Round 6 rule triggers: \u0027subtract one from 3 to get 2.\u0027"
                        },
                        {
                            "isInfo":  false,
@@ -9824,7 +9824,7 @@
                            "prompt":  "Tap three times.",
                            "target":  4,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 4."
+                           "explanation":  "The prompt asks for 3 taps. The icons show a square, so NO subtraction. The Vintage Carnival Ticket wildcard adds +1 to our 3, giving 4 taps."
                        }
                    ]
     },
@@ -12370,7 +12370,7 @@
                            "prompt":  "How many squares?",
                            "target":  2,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 2."
+                           "explanation":  "There is 1 square and 1 circle. 1 square + Vintage Carnival Ticket (+1) = 2 taps."
                        },
                        {
                            "isInfo":  false,
@@ -12393,7 +12393,7 @@
                            "prompt":  "Count the objects.",
                            "target":  3,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 3 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "Count the objects: there are 3 shapes total. No wildcards or rules yet, so the answer is 3."
                        },
                        {
                            "isInfo":  true,
@@ -12405,7 +12405,7 @@
                            "prompt":  "If the answer is four, tap zero.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "This is an informational round. No tapping required, just read the prompt and advance."
+                           "explanation":  "Info round establishing a persistent rule: \u0027If the answer is four, tap zero\u0027."
                        },
                        {
                            "isInfo":  false,
@@ -12417,7 +12417,7 @@
                            "prompt":  "Two plus two.",
                            "target":  0,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 0 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "Two plus two is 4. Due to the rule from Round 3, an answer of 4 becomes exactly 0."
                        },
                        {
                            "isInfo":  false,
@@ -12429,7 +12429,7 @@
                            "prompt":  "Two plus two.",
                            "target":  5,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 5."
+                           "explanation":  "Two plus two is 4. The Vintage Carnival Ticket adds +1, making the preliminary answer 5. Since it\u0027s no longer 4, the Round 3 rule doesn\u0027t trigger. Final answer is 5."
                        },
                        {
                            "isInfo":  false,
@@ -12452,7 +12452,7 @@
                            "prompt":  "How many total items?",
                            "target":  0,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 0."
+                           "explanation":  "There are 3 red stars. The Vintage Carnival Ticket adds +1, making it 4. This triggers the Round 3 rule (\u0027If the answer is four, tap zero\u0027), making the final answer 0!"
                        },
                        {
                            "isInfo":  true,
@@ -12464,7 +12464,7 @@
                            "prompt":  "Only count yellow items.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "This is an informational round. No tapping required, just read the prompt and advance."
+                           "explanation":  "Info round establishing a new rule: \u0027Only count yellow items\u0027."
                        },
                        {
                            "isInfo":  false,
@@ -12491,7 +12491,7 @@
                            "prompt":  "How many stars?",
                            "target":  0,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 0 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "The prompt asks for stars, but based on Round 7, we ONLY count yellow items. There are white and blue stars, but NO yellow items. 0 stars = 0 taps."
                        },
                        {
                            "isInfo":  false,
@@ -12518,7 +12518,7 @@
                            "prompt":  "How many stars?",
                            "target":  0,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 0 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "Same logic as before - there are white and blue stars, but zero yellow items. Tap 0 times."
                        },
                        {
                            "isInfo":  false,
@@ -12545,7 +12545,7 @@
                            "prompt":  "How many white shapes?",
                            "target":  1,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 1."
+                           "explanation":  "The prompt asks for white shapes. Due to Round 7\u0027s rule, we only count yellow items (so 0 white shapes). However, the Vintage Carnival Ticket adds +1 to our total. 0 + 1 = 1 tap."
                        }
                    ]
     },
@@ -13653,7 +13653,7 @@
                            "prompt":  "Tap TWO times.",
                            "target":  2,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 2 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "The text says \u0027Tap TWO times\u0027. No wildcard, so tap exactly 2 times."
                        },
                        {
                            "isInfo":  false,
@@ -13676,7 +13676,7 @@
                            "prompt":  "Count the red shapes.",
                            "target":  3,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 3."
+                           "explanation":  "There are 2 red squares. The Vintage Carnival Ticket wildcard adds +1. 2 + 1 = 3 taps."
                        },
                        {
                            "isInfo":  true,
@@ -13688,7 +13688,7 @@
                            "prompt":  "If the answer is exactly three, do not tap.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "This is an informational round. No tapping required, just read the prompt and advance."
+                           "explanation":  "Info round establishing a completely new persistent rule: \u0027If the answer is exactly three, do not tap\u0027. Remember this!"
                        },
                        {
                            "isInfo":  false,
@@ -13700,7 +13700,7 @@
                            "prompt":  "Tap THREE times.",
                            "target":  0,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 0 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "The prompt asks for THREE taps. However, applying the rule from Round 3 (\u0027If the answer is exactly three, do not tap\u0027), the correct answer becomes 0."
                        },
                        {
                            "isInfo":  false,
@@ -13712,7 +13712,7 @@
                            "prompt":  "Tap TWO times.",
                            "target":  0,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 0."
+                           "explanation":  "The prompt asks for TWO taps. The Vintage Carnival Ticket adds +1, making it 3. Our info rule triggers (\u0027If the answer is exactly three, do not tap\u0027), making the final answer 0!"
                        },
                        {
                            "isInfo":  false,
@@ -13731,7 +13731,7 @@
                            "prompt":  "Count the total shapes.",
                            "target":  2,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 2 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "There are exactly 2 green stars. No wildcard and the answer is not three, so tap 2 times."
                        },
                        {
                            "isInfo":  true,
@@ -13743,7 +13743,7 @@
                            "prompt":  "Ignore all blue items.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "This is an informational round. No tapping required, just read the prompt and advance."
+                           "explanation":  "Info round establishing a second persistent rule: \u0027Ignore all blue items\u0027."
                        },
                        {
                            "isInfo":  false,
@@ -13774,7 +13774,7 @@
                            "prompt":  "Count the items.",
                            "target":  0,
                            "wildcardId":  0,
-                           "explanation":  "Based simply on reading the prompt, the correct answer is 0 taps. No wildcards are active to alter this outcome."
+                           "explanation":  "There are 3 red circles and 2 blue circles. Due to the rule from Round 7, ignore the blue ones. 3 red circles equals 3 taps. BUT wait! The rule from Round 3 (\u0027If the answer is exactly three, do not tap\u0027) triggers here too! So the final answer is 0."
                        },
                        {
                            "isInfo":  false,
@@ -13809,7 +13809,7 @@
                            "prompt":  "Count the items.",
                            "target":  5,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 5."
+                           "explanation":  "There are 4 green squares and 2 blue squares. Ignoring blue (Round 7 rule) leaves 4. The Vintage Carnival Ticket wildcard adds +1, giving 5 taps. (Doesn\u0027t trigger the \u0027three\u0027 rule)."
                        },
                        {
                            "isInfo":  false,
@@ -13821,7 +13821,7 @@
                            "prompt":  "Tap ONE time.",
                            "target":  2,
                            "wildcardId":  1,
-                           "explanation":  "The prompt is trying to trick you or guide you to a different number. However, you must remember the active wildcard rule! The Vintage Carnival Ticket is active, which always adds +1 to the final tap count. Applying this rule leads to the final required tap count of 2."
+                           "explanation":  "The prompt asks for ONE tap. The Vintage Carnival Ticket adds +1, making it 2. Tap 2 times."
                        }
                    ]
     },

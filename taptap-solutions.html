@@ -461,25 +461,132 @@
 
     </div>
 
-    <!-- Script to handle dropdown and UI rendering (Currently set up with placeholder data) -->
+    <!-- Script to handle dropdown and UI rendering -->
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const select = document.getElementById("levelSelect");
             const container = document.getElementById("roundsContainer");
+            let allSolutions = [];
 
-            // Populate the dropdown 1 to 100
-            for (let i = 1; i <= 100; i++) {
-                let option = document.createElement("option");
-                option.value = i;
-                option.textContent = "Level " + i;
-                select.appendChild(option);
-            }
+            // Fetch the massive solutions file we built with brainpower
+            fetch('solutions.json')
+                .then(response => response.json())
+                .then(data => {
+                    allSolutions = data;
+
+                    // Clear placeholder options
+                    select.innerHTML = '';
+
+                    // Populate Level dropdown
+                    allSolutions.forEach(levelObj => {
+                        let option = document.createElement("option");
+                        option.value = levelObj.levelId;
+                        option.textContent = "Level " + levelObj.levelId;
+                        select.appendChild(option);
+                    });
+
+                    // Trigger the first level rendering
+                    if (allSolutions.length > 0) {
+                        select.value = "1";
+                        renderLevel(1);
+                    }
+                })
+                .catch(err => {
+                    container.innerHTML = `<div style="text-align:center; padding: 40px; color: red;">Error loading solutions.json. Check console.</div>`;
+                    console.error("Failed to fetch solutions: ", err);
+                });
 
             // Listen for changes
             select.addEventListener("change", (e) => {
-                const selectedLevel = e.target.value;
-                container.innerHTML = `<div style="text-align:center; grid-column: 1/-1; padding: 40px; color: var(--gray);">Loading solutions for Level ${selectedLevel}... <br><br><em>(The AI is currently analyzing this level using brainpower! The real solutions will appear here shortly.)</em></div>`;
+                const selectedLevel = parseInt(e.target.value);
+                renderLevel(selectedLevel);
             });
+
+            // Icon Mapping System that converts raw JSON strings into Google Material Icons (Using custom CSS shapes for now)
+            function generateSceneHtml(icons) {
+                if (!icons || icons.length === 0) return `<div style="color:var(--gray); font-style:italic;">No visual elements present on screen.</div>`;
+
+                let html = "";
+                icons.forEach(el => {
+                    let shape = "50%"; // Default circle
+                    if (el.content.includes("square")) shape = "10%";
+                    if (el.content.includes("triangle")) shape = "polygon(50% 0%, 0% 100%, 100% 100%)";
+                    if (el.content.includes("star") || el.content.includes("favorite")) shape = "polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)";
+
+                    let clipPathCss = el.content.includes("triangle") || el.content.includes("star") || el.content.includes("favorite") ? `clip-path: ${shape}; border-radius: 0; background-color: ${el.color}; border: none;` : `border-radius: ${shape};`;
+                    let bgColorCss = el.content.includes("triangle") || el.content.includes("star") || el.content.includes("favorite") ? `` : `background-color: transparent; border: 3px solid ${el.color};`;
+
+                    // Handle special icons like timer
+                    if (el.content === "timer" || el.content === "warning") {
+                        html += `<div style="display:flex; align-items:center; justify-content:center; width:45px; height:45px; background:${el.color}; color:white; border-radius:5px; font-weight:bold; font-size:10px;">${el.content.substring(0, 3).toUpperCase()}</div>`;
+                    } else {
+                        html += `<div style="width: 40px; height: 40px; ${clipPathCss} ${bgColorCss}"></div>`;
+                    }
+                });
+                return html;
+            }
+
+            function renderLevel(levelId) {
+                const levelData = allSolutions.find(l => l.levelId === levelId);
+
+                if (!levelData) {
+                    container.innerHTML = `<div style="text-align:center; padding: 40px;">No data found for Level ${levelId}.</div>`;
+                    return;
+                }
+
+                container.innerHTML = ""; // Clear existing UI
+
+                levelData.rounds.forEach(round => {
+                    // Logic formats
+                    const isInfo = round.isInfo;
+                    const roundTypeClass = isInfo ? "info-type" : "tap-type";
+                    const roundTypeLabel = isInfo ? "Info" : "Tap";
+
+                    const wildcardName = round.wildcardId !== 0 ? `🎫 ${round.wildcardName}` : "No Active Wildcard";
+                    const wildcardClass = round.wildcardId !== 0 ? "" : "none";
+
+                    // The actual card element
+                    const card = document.createElement("div");
+                    card.className = "round-card";
+
+                    // We only show target and explanation if the solution has been generated, else default text
+                    let solutionHTML = "";
+                    if (round.explanation) {
+                        solutionHTML = `
+                        <div class="solution-box">
+                            <div class="target-number">${round.target !== null ? round.target : "-"}</div>
+                            <p class="explanation-text">${round.explanation}</p>
+                        </div>`;
+                    } else {
+                        solutionHTML = `
+                         <div class="solution-box" style="background:#fff3e0;">
+                            <div class="target-number">?</div>
+                            <p class="explanation-text" style="color:#b45309 !important;"><em>The AI brainpower module is still analyzing this round. Come back later!</em></p>
+                        </div>`;
+                    }
+
+                    card.innerHTML = `
+                        <div class="round-header">
+                            <span class="round-number">Round ${round.roundId}</span>
+                            <span class="round-type ${roundTypeClass}">${roundTypeLabel}</span>
+                        </div>
+                        
+                        <div class="round-prompt">
+                            "${round.prompt.replace(/\n/g, '<br>')}"
+                        </div>
+
+                        <div class="wildcard-banner ${wildcardClass}">
+                            ${wildcardName}
+                        </div>
+
+                        ${!isInfo ? `<div class="scene-preview">${generateSceneHtml(round.icons)}</div>` : ''}
+
+                        ${solutionHTML}
+                    `;
+
+                    container.appendChild(card);
+                });
+            }
         });
     </script>
 
