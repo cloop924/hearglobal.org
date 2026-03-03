@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TapTap - The Ultimate Brain Game</title>
+    <title>TapTap - Solutions</title>
     <style>
         :root {
             --primary: #e63946;
@@ -135,9 +135,8 @@
             transition: transform 0.3s;
         }
 
-        .section-box:hover {
-            transform: translateY(-5px);
-            border-color: var(--accent);
+        .section-box.solutions-header-box {
+            padding: 30px 50px;
         }
 
         .section-box h2 {
@@ -155,20 +154,6 @@
             line-height: 1.7;
             color: #444;
             margin-bottom: 20px;
-        }
-
-        .store-badge {
-            display: inline-block;
-            background: var(--dark);
-            color: var(--white);
-            padding: 15px 30px;
-            border-radius: 30px;
-            text-decoration: none;
-            font-size: 16px;
-            font-weight: 500;
-            margin-top: 30px;
-            opacity: 0.5;
-            cursor: not-allowed;
         }
 
         footer {
@@ -233,69 +218,6 @@
                 padding: 30px;
             }
         }
-
-        /* Carousel Styles */
-        .carousel-container {
-            width: 100%;
-            overflow-x: hidden;
-            position: relative;
-            margin-top: 40px;
-        }
-
-        .carousel-track {
-            display: flex;
-            overflow-x: auto;
-            scroll-snap-type: x mandatory;
-            gap: 20px;
-            padding-bottom: 20px;
-            padding-top: 10px;
-            scrollbar-width: thin;
-            scrollbar-color: var(--accent) var(--light);
-            scroll-padding: 0 50px;
-        }
-
-        .carousel-track::-webkit-scrollbar {
-            height: 8px;
-        }
-
-        .carousel-track::-webkit-scrollbar-track {
-            background: #f1f1f1;
-            border-radius: 10px;
-        }
-
-        .carousel-track::-webkit-scrollbar-thumb {
-            background-color: var(--accent);
-            border-radius: 10px;
-        }
-
-        .carousel-card {
-            flex: 0 0 280px;
-            scroll-snap-align: start;
-            border-radius: 16px;
-            overflow: hidden;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-            background: var(--dark);
-            transition: transform 0.3s;
-        }
-
-        .carousel-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .carousel-card img {
-            width: 100%;
-            height: auto;
-            display: block;
-            border-bottom: 4px solid var(--accent);
-        }
-
-        .carousel-card-title {
-            padding: 15px;
-            color: var(--white);
-            font-size: 15px;
-            font-weight: 600;
-            text-align: center;
-        }
     </style>
 </head>
 
@@ -319,47 +241,25 @@
     </div>
 
     <div class="sub-nav">
-        <a href="taptap.html" class="active">Overview</a>
+        <a href="taptap.html">Overview</a>
         <a href="taptap-lore.html">Lore & Stickers</a>
-        <a href="taptap-solutions.html">Solutions</a>
+        <a href="taptap-solutions.html" class="active">Solutions</a>
     </div>
 
     <div class="content-block">
-        <div class="section-box">
-            <h2>🎪 Overview</h2>
+        <div class="section-box solutions-header-box">
+            <h2>🎟️ Level Solutions</h2>
             <p>
-                TapTap is a fast-paced, prompt-driven tapping experience designed around precision, attention, and
-                adaptive rule changes. Each round presents the player with a short written instruction indicating how
-                many times to tap a central button. The core mechanic is simple — tap the correct number of times — but
-                success depends entirely on accurate reading and disciplined execution.
+                Stuck on a tricky level? Sometimes the prompts are deliberately designed to test your mental reflexes
+                and break your typical reading patterns.
             </p>
             <p>
-                The system intentionally challenges assumptions, requiring players to rely on what is written rather
-                than instinct. Gameplay sessions are intentionally short and responsive, providing immediate feedback on
-                success or failure. The interface is clean and focused, centering on a single primary tap interaction to
-                minimize friction and maximize clarity. Difficulty scales gradually through increased cognitive load
-                rather than mechanical complexity, keeping the experience accessible while significantly deepening the
-                mental challenge.
-            </p>
-            <div style="text-align: center;">
-                <span class="store-badge">App Store - Coming Soon</span>
-            </div>
-        </div>
-
-        <div class="section-box">
-            <h2>🎡 Progression & Wild Cards</h2>
-            <p>
-                Levels are structured progressively, beginning with guided onboarding rounds that introduce the mechanic
-                through play rather than lengthy explanation. As you advance, rule modifiers known as <strong>Wild
-                    Cards</strong> are introduced at controlled intervals.
-            </p>
-            <p>
-                These modifiers alter how the tap count behaves, subtly changing the outcome and requiring you to
-                remember active conditions displayed in a persistent banner at the top of the screen. This evolving rule
-                system reinforces short-term memory, adaptability, and careful observation over time.
+                <em>Detailed puzzle solutions, breakdowns of the cognitive modifiers, and tips for beating the hardest
+                    challenges will be populated here shortly...</em>
             </p>
         </div>
 
+        <!-- The solutions logic to follow... -->
     </div>
 
     <footer>
