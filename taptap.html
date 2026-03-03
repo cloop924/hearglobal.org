@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TapTap - The Ultimate Brain Game</title>
+    <style>
+        :root {
+            --primary: #e63946;
+            --accent: #f4a261;
+            --dark: #111111;
+            --light: #fffdf9;
+            --white: #ffffff;
+            --gray: #666666;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 253, 249, 0.9);
+            backdrop-filter: blur(20px);
+            z-index: 1000;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .nav-content {
+            max-width: 980px;
+            margin: 0 auto;
+            height: 48px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-weight: 600;
+            font-size: 18px;
+            color: var(--dark);
+            text-decoration: none;
+        }
+
+        .nav-links a {
+            font-size: 12px;
+            color: var(--dark);
+            text-decoration: none;
+            margin-left: 24px;
+            opacity: 0.8;
+            transition: opacity 0.2s;
+        }
+
+        .nav-links a:hover {
+            opacity: 1;
+            color: var(--primary);
+        }
+
+        .game-hero {
+            background: radial-gradient(circle at center, #2b2d42 0%, #111111 100%);
+            color: #fff;
+            padding: 140px 20px 100px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Carnival lights effect */
+        .game-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: radial-gradient(var(--accent) 2px, transparent 2px);
+            background-size: 80px 80px;
+            opacity: 0.1;
+        }
+
+        .game-hero-icon {
+            width: 140px;
+            height: 140px;
+            border-radius: 20%;
+            margin: 0 auto 30px;
+            box-shadow: 0 0 40px rgba(244, 162, 97, 0.4);
+            display: block;
+        }
+
+        .game-hero h1 {
+            font-size: 56px;
+            font-weight: 800;
+            letter-spacing: -2px;
+            margin-bottom: 20px;
+            font-family: "Impact", "Arial Black", sans-serif;
+            text-transform: uppercase;
+            color: var(--accent);
+            text-shadow: 2px 2px 0px var(--primary);
+        }
+
+        .game-hero p {
+            font-size: 22px;
+            font-weight: 400;
+            max-width: 600px;
+            margin: 0 auto;
+            color: #eeeeee;
+        }
+
+        .content-block {
+            max-width: 800px;
+            margin: 80px auto;
+            padding: 0 20px;
+        }
+
+        .section-box {
+            background: var(--white);
+            border-radius: 20px;
+            padding: 50px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            border: 2px solid transparent;
+            transition: transform 0.3s;
+        }
+
+        .section-box:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent);
+        }
+
+        .section-box h2 {
+            font-size: 32px;
+            margin-bottom: 25px;
+            letter-spacing: -0.5px;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .section-box p {
+            font-size: 19px;
+            line-height: 1.7;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        .store-badge {
+            display: inline-block;
+            background: var(--dark);
+            color: var(--white);
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 30px;
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        footer {
+            background: var(--white);
+            padding: 60px 20px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .footer-content {
+            max-width: 980px;
+            margin: 0 auto;
+            font-size: 12px;
+            color: var(--gray);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer-content a {
+            color: var(--dark);
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .game-hero h1 {
+                font-size: 40px;
+            }
+
+            .section-box {
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-content">
+            <a href="index.html" class="logo">HearGlobal</a>
+            <div class="nav-links">
+                <a href="products.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="game-hero">
+        <img src="taptap.jpg" alt="TapTap Icon" class="game-hero-icon">
+        <h1>TapTap</h1>
+        <p>A fast-paced carnival of the mind. Read carefully, resist your impulses, and achieve mastery.</p>
+    </div>
+
+    <div class="content-block">
+        <div class="section-box">
+            <h2>🎪 Overview</h2>
+            <p>
+                TapTap is a fast-paced, prompt-driven tapping experience designed around precision, attention, and
+                adaptive rule changes. Each round presents the player with a short written instruction indicating how
+                many times to tap a central button. The core mechanic is simple — tap the correct number of times — but
+                success depends entirely on accurate reading and disciplined execution.
+            </p>
+            <p>
+                The system intentionally challenges assumptions, requiring players to rely on what is written rather
+                than instinct. Gameplay sessions are intentionally short and responsive, providing immediate feedback on
+                success or failure. The interface is clean and focused, centering on a single primary tap interaction to
+                minimize friction and maximize clarity. Difficulty scales gradually through increased cognitive load
+                rather than mechanical complexity, keeping the experience accessible while significantly deepening the
+                mental challenge.
+            </p>
+            <div style="text-align: center;">
+                <span class="store-badge">App Store - Coming Soon</span>
+            </div>
+        </div>
+
+        <div class="section-box">
+            <h2>🎡 Progression & Wild Cards</h2>
+            <p>
+                Levels are structured progressively, beginning with guided onboarding rounds that introduce the mechanic
+                through play rather than lengthy explanation. As you advance, rule modifiers known as <strong>Wild
+                    Cards</strong> are introduced at controlled intervals.
+            </p>
+            <p>
+                These modifiers alter how the tap count behaves, subtly changing the outcome and requiring you to
+                remember active conditions displayed in a persistent banner at the top of the screen. This evolving rule
+                system reinforces short-term memory, adaptability, and careful observation over time.
+            </p>
+        </div>
+
+        <div class="section-box">
+            <h2>🎭 Lore</h2>
+            <p>
+                The game includes a light narrative flavor through a mischievous carnival theme, and recurring system
+                expansions that introduce new rule variations over time. Beneath the energetic surface of this "Carnival
+                of the Mind" lies a highly structured mental exercise. The barker at the booth tries to trip you up with
+                misleading text—will your focus shatter under the flashing lights, or can you remain perfectly
+                unbothered?
+            </p>
+        </div>
+
+        <div class="section-box">
+            <h2>🎟️ Solutions</h2>
+            <p>
+            <p>
+                Stuck on a tricky level? Sometimes the prompts are deliberately designed to test your mental reflexes
+                and break your typical reading patterns.
+            </p>
+            <p>
+                <em>Detailed puzzle solutions, breakdowns of the cognitive modifiers, and tips for beating the hardest
+                    challenges will be posted here once the game officially launches. Stay tuned!</em>
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <span>© 2026 HearGlobal LLC.</span>
+            <div>
+                <a href="privacy.html">Privacy</a>
+                <a href="terms.html">Terms</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
