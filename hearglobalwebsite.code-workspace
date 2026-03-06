@@ -2,12 +2,6 @@
 	"folders": [
 		{
 			"path": "."
-		},
-		{
-			"path": "../../gamedev/tapgame/lib"
-		},
-		{
-			"path": "../../gamedev/tapgame/assets/levels"
 		}
 	],
 	"settings": {}
