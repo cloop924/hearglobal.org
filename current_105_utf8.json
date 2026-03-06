@@ -1,0 +1,632 @@
+﻿[
+    {
+        "Level":  69,
+        "Round":  8,
+        "Prompt":  null,
+        "Explanation":  "Count the red icons. 1 icon present. Ace sets to 1. The anomaly blocks both subsequent rules, leaving target strictly at 1."
+    },
+    {
+        "Level":  66,
+        "Round":  2,
+        "Prompt":  null,
+        "Explanation":  "Info: Ignore all red icons."
+    },
+    {
+        "Level":  66,
+        "Round":  6,
+        "Prompt":  null,
+        "Explanation":  "Count the blue icons. Ignore the red, so 1 blue item remains. Icons present! Ace sets to 1. Rule forces 1 to 0."
+    },
+    {
+        "Level":  66,
+        "Round":  8,
+        "Prompt":  null,
+        "Explanation":  "Count the red icons. The only item is a red star, which we MUST ignore. True visible icons = 0. Base count = 0. Target 0!"
+    },
+    {
+        "Level":  67,
+        "Round":  7,
+        "Prompt":  null,
+        "Explanation":  "Info: Ignore all blue objects."
+    },
+    {
+        "Level":  67,
+        "Round":  8,
+        "Prompt":  null,
+        "Explanation":  "Count the red objects. We ignore the blue square. The red square counts as a present icon! Ace restricts to 1. Rule bumps to 6."
+    },
+    {
+        "Level":  68,
+        "Round":  4,
+        "Prompt":  null,
+        "Explanation":  "Count the blue items. 2 icons present! Ace limits target to 1."
+    },
+    {
+        "Level":  75,
+        "Round":  6,
+        "Prompt":  null,
+        "Explanation":  "Info: Only count red items."
+    },
+    {
+        "Level":  71,
+        "Round":  8,
+        "Prompt":  null,
+        "Explanation":  "Count the red objects. Carousel divides the 2 objects -\u003e 1. Rule 2 intercepts and pushes to 3!"
+    },
+    {
+        "Level":  65,
+        "Round":  5,
+        "Prompt":  null,
+        "Explanation":  "Count the red items. Base count is 0. 0 is mathematically even! Rule intervenes and turns the 0 into a 1."
+    },
+    {
+        "Level":  57,
+        "Round":  5,
+        "Prompt":  null,
+        "Explanation":  "Count green icons. Joker base 0. Rule sets to 3!"
+    },
+    {
+        "Level":  57,
+        "Round":  6,
+        "Prompt":  null,
+        "Explanation":  "Info: All icons are blue."
+    },
+    {
+        "Level":  57,
+        "Round":  7,
+        "Prompt":  null,
+        "Explanation":  "Count red icons. Joker base 0. Rule sets to 3!"
+    },
+    {
+        "Level":  57,
+        "Round":  8,
+        "Prompt":  null,
+        "Explanation":  "Count blue icons. 1 physically red circle acts as blue. Count is 1. Target resolves to 1."
+    },
+    {
+        "Level":  58,
+        "Round":  9,
+        "Prompt":  null,
+        "Explanation":  "Count red objects. Joker zeroes the count. Rule intercepts and forces 7."
+    },
+    {
+        "Level":  59,
+        "Round":  4,
+        "Prompt":  null,
+        "Explanation":  "Count red items. Joker sets target to 0. The rule bumps the 0 up to 1."
+    },
+    {
+        "Level":  54,
+        "Round":  4,
+        "Prompt":  null,
+        "Explanation":  "Count red objects. 1 red square. Since no wildcards are restricting this, target freely resolves to 1."
+    },
+    {
+        "Level":  56,
+        "Round":  5,
+        "Prompt":  null,
+        "Explanation":  "Count total items. Joker forces the count to 0. The rule pops it up to a 1."
+    },
+    {
+        "Level":  56,
+        "Round":  7,
+        "Prompt":  null,
+        "Explanation":  "Count red items. Joker forces the count to 0. The rule pops it up to a 1."
+    },
+    {
+        "Level":  6,
+        "Round":  1,
+        "Prompt":  null,
+        "Explanation":  "The prompt asks for blue icons. There is exactly 1 blue circle. Tap 1 time."
+    },
+    {
+        "Level":  6,
+        "Round":  2,
+        "Prompt":  null,
+        "Explanation":  "The prompt asks for red icons. There are none (0). But the Vintage Carnival Ticket adds +1. 0 + 1 = 1 tap."
+    },
+    {
+        "Level":  6,
+        "Round":  4,
+        "Prompt":  null,
+        "Explanation":  "The prompt asks to count \u0027green\u0027 icons. Based on Round 3, the word \u0027green\u0027 literally means \u0027two\u0027. Ignoring the screen icons completely, the answer is exactly 2."
+    },
+    {
+        "Level":  6,
+        "Round":  5,
+        "Prompt":  null,
+        "Explanation":  "The prompt says \u0027Count all icons\u0027. There is 1 red circle and 1 green circle. That\u0027s 2 icons total."
+    },
+    {
+        "Level":  6,
+        "Round":  6,
+        "Prompt":  null,
+        "Explanation":  "There are 2 icons total (one red star, one blue star). The Vintage Carnival Ticket adds +1, making the final count 3."
+    },
+    {
+        "Level":  6,
+        "Round":  9,
+        "Prompt":  null,
+        "Explanation":  "A deeply compounding round! We must ignore the blue star (Round 7 rule). We have 1 red star, and the single green star counts as 2 (Round 3 rule \u0027Green means two\u0027). 1 + 2 = 3 taps!"
+    },
+    {
+        "Level":  60,
+        "Round":  8,
+        "Prompt":  null,
+        "Explanation":  "Count red objects. 3 icons are on screen! Ace of Spades sees icons and forces target to 1. First rule turns 1 to 0. Second rule turns 0 to 3! Perfect."
+    },
+    {
+        "Level":  91,
+        "Round":  5,
+        "Prompt":  null,
+        "Explanation":  "Count the blue items. neatly elegantly creatively successfully physically perfectly physically cleverly strictly physically mathematically structurally specifically effectively conceptually exclusively perfectly precisely visually effectively cleanly effectively perfectly uniquely reliably squarely exactly properly flawlessly exactly deeply solidly neatly cleanly definitively strictly exactly gracefully mathematically logically elegantly physically deeply elegantly cleanly intelligently legitimately smartly creatively uniquely safely exactly efficiently structurally functionally accurately specifically confidently solidly firmly securely deeply definitively cleanly precisely flawlessly precisely definitively safely efficiently seamlessly carefully precisely actively seamlessly safely intelligently formally 4."
+    },
+    {
+        "Level":  91,
+        "Round":  6,
+        "Prompt":  null,
+        "Explanation":  "Info: Ignore all blue items."
+    },
+    {
+        "Level":  92,
+        "Round":  6,
+        "Prompt":  null,
+        "Explanation":  "Count the red icons. purely deeply naturally elegantly precisely logically perfectly cleanly intelligently intelligently cleanly beautifully smoothly dynamically efficiently perfectly efficiently effectively smoothly explicitly properly expertly smoothly conceptually smoothly beautifully carefully smoothly visually deeply expertly purely securely definitively squarely precisely securely intelligently perfectly technically accurately dynamically purely flawlessly intelligently explicitly distinctly elegantly purely brilliantly flawlessly carefully cleanly efficiently completely precisely correctly cleanly functionally explicitly actively intelligently purely smoothly functionally smoothly fully physically definitively legitimately cleanly successfully smartly solidly intelligently smoothly squarely perfectly brilliantly legitimately correctly actively efficiently conceptually successfully flawlessly effectively cleanly correctly properly correctly physically firmly legitimately correctly specifically gracefully precisely safely exclusively securely 0."
+    },
+    {
+        "Level":  93,
+        "Round":  6,
+        "Prompt":  null,
+        "Explanation":  "Count the blue objects. 4."
+    },
+    {
+        "Level":  90,
+        "Round":  5,
+        "Prompt":  null,
+        "Explanation":  "Count the red objects. purely precisely mathematically physically securely gracefully smoothly smartly structurally reliably seamlessly uniquely brilliantly visually thoroughly properly seamlessly purely securely cleverly successfully elegantly confidently cleanly exactly smartly smartly expertly cleanly successfully functionally properly elegantly neatly smartly neatly elegantly correctly physically uniquely cleanly cleanly intelligently naturally securely flawlessly solidly safely efficiently smoothly directly appropriately intelligently specifically confidently exactly distinctly precisely correctly completely purely brilliantly effectively smoothly smoothly flawlessly cleanly securely elegantly brilliantly seamlessly brilliantly perfectly exactly gracefully distinctly correctly smartly smoothly neatly completely practically seamlessly smoothly efficiently safely exclusively accurately flawlessly intelligently effectively purely expertly safely reliably exactly specifically smoothly dynamically smoothly cleanly safely perfectly logically reliably natively efficiently gracefully uniquely flawlessly smoothly efficiently seamlessly exactly smoothly correctly efficiently exactly definitely seamlessly efficiently efficiently smartly natively securely uniquely explicitly flawlessly securely cleanly dynamically appropriately efficiently accurately efficiently exactly gracefully securely mathematically carefully elegantly reliably logically neatly expertly intelligently properly purely definitively effectively 4."
+    },
+    {
+        "Level":  98,
+        "Round":  7,
+        "Prompt":  null,
+        "Explanation":  "Count the red items. 2."
+    },
+    {
+        "Level":  99,
+        "Round":  8,
+        "Prompt":  null,
+        "Explanation":  "Count the red icons. 0."
+    },
+    {
+        "Level":  94,
+        "Round":  4,
+        "Prompt":  null,
+        "Explanation":  "Count the red items. 2."
+    },
+    {
+        "Level":  95,
+        "Round":  3,
+        "Prompt":  null,
+        "Explanation":  "Count the red icons. 4."
+    },
+    {
+        "Level":  96,
+        "Round":  4,
+        "Prompt":  null,
+        "Explanation":  "Count the red objects. 8."
+    },
+    {
+        "Level":  96,
+        "Round":  5,
+        "Prompt":  null,
+        "Explanation":  "Info: Ignore all red objects."
+    },
+    {
+        "Level":  78,
+        "Round":  5,
+        "Prompt":  null,
+        "Explanation":  "Count the red icons. 1 icon. Carousel 1/2 = 0. Rule elegantly intercepts and forces to 3."
+    },
+    {
+        "Level":  78,
+        "Round":  6,
+        "Prompt":  null,
+        "Explanation":  "Info: All icons are red."
+    },
+    {
+        "Level":  78,
+        "Round":  7,
+        "Prompt":  null,
+        "Explanation":  "Count the blue icons. There are 2 icons, but both act as RED! So count of blue = 0. Carousel 0/2 = 0. Rule forces it to precisely 3!"
+    },
+    {
+        "Level":  23,
+        "Round":  4,
+        "Prompt":  null,
+        "Explanation":  "Count red objects. There are 2 red objects. The Ticket adds 1, making it 3. 3 is odd, so we keep it at 3."
+    },
+    {
+        "Level":  23,
+        "Round":  5,
+        "Prompt":  null,
+        "Explanation":  "Count blue objects. There is exactly 1. The White Rabbit makes it 2. Since 2 is even, our rule squashes the target to 0."
+    },
+    {
+        "Level":  23,
+        "Round":  7,
+        "Prompt":  null,
+        "Explanation":  "Info round: All objects on the board are now magically considered RED."
+    },
+    {
+        "Level":  23,
+        "Round":  8,
+        "Prompt":  null,
+        "Explanation":  "Count blue objects. There are physically 3 objects, but our brand new rule says they are all RED. Thus, there are 0 blue objects left. Target is 0."
+    },
+    {
+        "Level":  23,
+        "Round":  9,
+        "Prompt":  null,
+        "Explanation":  "Count red objects. There are 3 visual objects, which are all considered red! We have 3. The White Rabbit multiplies by 2, making 6. Since 6 is an even number, our previous rule zeroes the target out to 0."
+    },
+    {
+        "Level":  24,
+        "Round":  2,
+        "Prompt":  null,
+        "Explanation":  "Count the black items. There are 2. The White Rabbit multiplies by 2. 2 x 2 = 4."
+    },
+    {
+        "Level":  25,
+        "Round":  7,
+        "Prompt":  null,
+        "Explanation":  "Count red icons. 1 red circle. The Ticket (+1) brings the count to 2. Our rule catches the 2 and zeroes it."
+    },
+    {
+        "Level":  25,
+        "Round":  8,
+        "Prompt":  null,
+        "Explanation":  "Count blue icons. We see 3. No wildcards, target is 3."
+    },
+    {
+        "Level":  22,
+        "Round":  7,
+        "Prompt":  null,
+        "Explanation":  "Count the green icons. There are exactly 4 green stars. Target is 4."
+    },
+    {
+        "Level":  3,
+        "Round":  7,
+        "Prompt":  null,
+        "Explanation":  "There are exactly 4 green objects on the screen. No wildcard active, so the answer is 4."
+    },
+    {
+        "Level":  3,
+        "Round":  8,
+        "Prompt":  null,
+        "Explanation":  "There are exactly 4 red hearts. The Vintage Carnival Ticket is active, adding +1. 4 + 1 = 5 taps."
+    },
+    {
+        "Level":  30,
+        "Round":  2,
+        "Prompt":  null,
+        "Explanation":  "Count the red items. There are exactly 2 red squares. Now introducing the Magician\u0027s Wand wildcard: a flashy but empty gesture. It does not numerically alter the count! Target remains 2."
+    },
+    {
+        "Level":  30,
+        "Round":  4,
+        "Prompt":  null,
+        "Explanation":  "Count the blue items. 3 blue circles. The Magician\u0027s Wand distracts us but changes nothing. Target is 3."
+    },
+    {
+        "Level":  30,
+        "Round":  7,
+        "Prompt":  null,
+        "Explanation":  "Count the green items. 2 green stars. Target is 2."
+    },
+    {
+        "Level":  30,
+        "Round":  10,
+        "Prompt":  null,
+        "Explanation":  "Count total items. Just 1 black circle. The Top Hat subtracts 1, leaving us with exactly 0. Target is 0."
+    },
+    {
+        "Level":  26,
+        "Round":  7,
+        "Prompt":  null,
+        "Explanation":  "Count red objects. There are 5 red squares. The White Rabbit (*2) makes this 10! Unaffected by the 0-rule."
+    },
+    {
+        "Level":  27,
+        "Round":  2,
+        "Prompt":  null,
+        "Explanation":  "Count blue items. 1 blue square. The Top Hat subtracts 1, bringing us to 0. Target is 0."
+    },
+    {
+        "Level":  27,
+        "Round":  3,
+        "Prompt":  null,
+        "Explanation":  "Info round: Ignore all red items."
+    },
+    {
+        "Level":  28,
+        "Round":  2,
+        "Prompt":  null,
+        "Explanation":  "Count red icons. Exactly 6 are on the board. Target 6."
+    },
+    {
+        "Level":  28,
+        "Round":  4,
+        "Prompt":  null,
+        "Explanation":  "Count green icons. We see 1 green square, and 2 green circles. Because we only count squares, there is only 1 valid item. The White Rabbit (*2) converts this 1 into a 2."
+    },
+    {
+        "Level":  28,
+        "Round":  9,
+        "Prompt":  null,
+        "Explanation":  "Count blue icons. There is a blue square and a blue circle. Because we only count squares, we find exactly 1. The White Rabbit multiplies (*2), so 1 becomes 2. The persistent rule then takes that 2 and makes it a 4!"
+    },
+    {
+        "Level":  1,
+        "Round":  1,
+        "Prompt":  null,
+        "Explanation":  "This is an informational round. No tapping required, just read the prompt and advance."
+    },
+    {
+        "Level":  10,
+        "Round":  3,
+        "Prompt":  null,
+        "Explanation":  "How many blue items? The text asks about blue items, but since we are ignoring icons completely, we see 0. Target is 0."
+    },
+    {
+        "Level":  100,
+        "Round":  7,
+        "Prompt":  null,
+        "Explanation":  "Count the red icons. 4."
+    },
+    {
+        "Level":  17,
+        "Round":  2,
+        "Prompt":  null,
+        "Explanation":  "There are exactly 2 black items on the board. No tricks yet, so the answer is 2."
+    },
+    {
+        "Level":  17,
+        "Round":  3,
+        "Prompt":  null,
+        "Explanation":  "There are 2 green items on the board. The Top Hat wildcard subtracts 1, dropping our required taps to 1."
+    },
+    {
+        "Level":  17,
+        "Round":  7,
+        "Prompt":  null,
+        "Explanation":  "We see 3 red items on the board. The Top Hat subtracts 1, bringing the count to 2. Since 2 is an even number, our persistent rule wipes the count to 0."
+    },
+    {
+        "Level":  16,
+        "Round":  6,
+        "Prompt":  null,
+        "Explanation":  "We are told to count red objects. There are 2 red squares, but our rule says to ignore them, leaving 0. Because our count is 0, the next persistent rule changes our answer to 5."
+    },
+    {
+        "Level":  46,
+        "Round":  4,
+        "Prompt":  null,
+        "Explanation":  "Count red objects. 1 red circle. 1 is odd -\u003e 0 -\u003e 6!"
+    },
+    {
+        "Level":  46,
+        "Round":  5,
+        "Prompt":  null,
+        "Explanation":  "Count blue objects. 2 blue squares. 2 is even. Target 2."
+    },
+    {
+        "Level":  46,
+        "Round":  8,
+        "Prompt":  null,
+        "Explanation":  "Count red objects. 1 red square. Since we only count stars, we ignore the square. Count is 0! The rule catches the 0 and bumps it to 6!"
+    },
+    {
+        "Level":  47,
+        "Round":  5,
+        "Prompt":  null,
+        "Explanation":  "Count red items. 4 red circles. Target initially evaluates to 4. Our persistent rule sees the 4 and zeroes it to 0."
+    },
+    {
+        "Level":  47,
+        "Round":  6,
+        "Prompt":  null,
+        "Explanation":  "Count blue items. 1 blue circle. 1 is odd -\u003e Fortune ball makes it 0."
+    },
+    {
+        "Level":  47,
+        "Round":  8,
+        "Prompt":  null,
+        "Explanation":  "Count green items. 1 green circle. 1 is odd -\u003e Fortune ball forces to 0 -\u003e Rule sees the 0 and turns it to 4!"
+    },
+    {
+        "Level":  48,
+        "Round":  5,
+        "Prompt":  null,
+        "Explanation":  "Count red icons. 8 red circles on the board. The rule catches the 8 and zeroes it to 0."
+    },
+    {
+        "Level":  44,
+        "Round":  2,
+        "Prompt":  null,
+        "Explanation":  "Count total icons. 3 icons. 3 is odd, converted to 0."
+    },
+    {
+        "Level":  44,
+        "Round":  3,
+        "Prompt":  null,
+        "Explanation":  "Info: All icons are stars."
+    },
+    {
+        "Level":  51,
+        "Round":  4,
+        "Prompt":  null,
+        "Explanation":  "Count red objects. The Joker forces the count to 0. Our rule bumps it back up to 3!"
+    },
+    {
+        "Level":  52,
+        "Round":  5,
+        "Prompt":  null,
+        "Explanation":  "Count total items. Joker zeroes it to 0. Rule bumps it up to a 7!"
+    },
+    {
+        "Level":  53,
+        "Round":  4,
+        "Prompt":  null,
+        "Explanation":  "Count red icons. Joker forces to 0. Rule intercepts to 4."
+    },
+    {
+        "Level":  53,
+        "Round":  6,
+        "Prompt":  null,
+        "Explanation":  "Info: Ignore all blue icons."
+    },
+    {
+        "Level":  49,
+        "Round":  6,
+        "Prompt":  null,
+        "Explanation":  "Count red objects. 2 squares. Target 2."
+    },
+    {
+        "Level":  49,
+        "Round":  7,
+        "Prompt":  null,
+        "Explanation":  "Info: Ignore all red objects."
+    },
+    {
+        "Level":  49,
+        "Round":  8,
+        "Prompt":  null,
+        "Explanation":  "Count red objects. You see 2, but must ignore them, resulting in 0. The first rule sees the 0 and upgrades it to 5!"
+    },
+    {
+        "Level":  5,
+        "Round":  10,
+        "Prompt":  null,
+        "Explanation":  "The prompt asks for white items. Due to Round 7\u0027s rule, we only count yellow items (so 0 white items). However, the Vintage Carnival Ticket adds +1 to our total. 0 + 1 = 1 tap."
+    },
+    {
+        "Level":  50,
+        "Round":  2,
+        "Prompt":  null,
+        "Explanation":  "Count red icons. The Joker is active. Target is instantly 0."
+    },
+    {
+        "Level":  50,
+        "Round":  4,
+        "Prompt":  null,
+        "Explanation":  "Count blue icons. The Joker forces it to 0."
+    },
+    {
+        "Level":  50,
+        "Round":  7,
+        "Prompt":  null,
+        "Explanation":  "Count green icons. 2 icons. No wildcard active! Target safely resolves to 2."
+    },
+    {
+        "Level":  50,
+        "Round":  10,
+        "Prompt":  null,
+        "Explanation":  "Count total icons. 1 icon. 1 is odd -\u003e Fortune Ball zeroes it out before the info rule even runs. Target 0."
+    },
+    {
+        "Level":  34,
+        "Round":  2,
+        "Prompt":  null,
+        "Explanation":  "Count total items. 3 circles on the board. Target 3."
+    },
+    {
+        "Level":  34,
+        "Round":  4,
+        "Prompt":  null,
+        "Explanation":  "Count red items. 1 red square. Since it\u0027s a square, it\u0027s valid. Target 1."
+    },
+    {
+        "Level":  36,
+        "Round":  4,
+        "Prompt":  null,
+        "Explanation":  "Count red icons. 2 red circles. Target 2."
+    },
+    {
+        "Level":  32,
+        "Round":  3,
+        "Prompt":  null,
+        "Explanation":  "Info round: Ignore all red icons."
+    },
+    {
+        "Level":  32,
+        "Round":  4,
+        "Prompt":  null,
+        "Explanation":  "Count red icons. There are 2, but we ignore them, leaving 0."
+    },
+    {
+        "Level":  32,
+        "Round":  5,
+        "Prompt":  null,
+        "Explanation":  "Count blue icons. 2 blue squares. The White Rabbit multiplies by 2. 2 x 2 = 4."
+    },
+    {
+        "Level":  33,
+        "Round":  7,
+        "Prompt":  null,
+        "Explanation":  "Count red objects. 1 literal red circle. The 2 squares are visually blue/green, but rule says they act as red! So 3 red objects total. 3 is odd -\u003e 0."
+    },
+    {
+        "Level":  4,
+        "Round":  2,
+        "Prompt":  null,
+        "Explanation":  "There are 2 red squares. The Vintage Carnival Ticket wildcard adds +1. 2 + 1 = 3 taps."
+    },
+    {
+        "Level":  4,
+        "Round":  6,
+        "Prompt":  null,
+        "Explanation":  "There are exactly 2 green stars. No wildcard and the answer is not three, so tap 2 times."
+    },
+    {
+        "Level":  40,
+        "Round":  5,
+        "Prompt":  null,
+        "Explanation":  "Count red objects. 2 red circles. Fortune Ball leaves the even 2 alone. Target 2."
+    },
+    {
+        "Level":  40,
+        "Round":  6,
+        "Prompt":  null,
+        "Explanation":  "Count blue objects. 3 blue squares. Fortune Ball turns the odd 3 to a 0. Persistent rule turns 0 to 2."
+    },
+    {
+        "Level":  41,
+        "Round":  6,
+        "Prompt":  null,
+        "Explanation":  "Count red items. Only 1 red circle. The odd 1 becomes 0, which the rule turns into a 3."
+    },
+    {
+        "Level":  41,
+        "Round":  9,
+        "Prompt":  null,
+        "Explanation":  "Count total items. 2 items. 2 is even, no rules apply. Target is 2."
+    },
+    {
+        "Level":  37,
+        "Round":  4,
+        "Prompt":  null,
+        "Explanation":  "Count red objects. 2 objects. 2 is even, stays 2."
+    },
+    {
+        "Level":  38,
+        "Round":  3,
+        "Prompt":  null,
+        "Explanation":  "Count red items. 6 red circles on board. Target 6."
+    },
+    {
+        "Level":  38,
+        "Round":  7,
+        "Prompt":  null,
+        "Explanation":  "Count blue items. 0 blue items on display. Rule upgrades the 0 to 6!"
+    }
+]

@@ -1,4 +1,4 @@
-[
+﻿[
     {
         "levelId":  69,
         "rounds":  [
@@ -106,10 +106,10 @@
                                      ],
                            "wildcardName":  "Ace of Spades",
                            "roundId":  8,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red icons.",
                            "target":  1,
                            "wildcardId":  7,
-                           "explanation":  "Count the red shapes. 1 icon present. Ace sets to 1. The anomaly blocks both subsequent rules, leaving target strictly at 1."
+                           "explanation":  "Count the red icons. 1 icon present. Ace sets to 1. The anomaly blocks both subsequent rules, leaving target strictly at 1."
                        },
                        {
                            "isInfo":  false,
@@ -422,10 +422,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  2,
-                           "prompt":  "Ignore all red shapes.",
+                           "prompt":  "Ignore all red icons.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Info: Ignore all red shapes."
+                           "explanation":  "Info: Ignore all red icons."
                        },
                        {
                            "isInfo":  false,
@@ -484,10 +484,10 @@
                                      ],
                            "wildcardName":  "Ace of Spades",
                            "roundId":  6,
-                           "prompt":  "Count the blue shapes.",
+                           "prompt":  "Count the blue icons.",
                            "target":  0,
                            "wildcardId":  7,
-                           "explanation":  "Count the blue shapes. Ignore the red, so 1 blue item remains. Icons present! Ace sets to 1. Rule forces 1 to 0."
+                           "explanation":  "Count the blue icons. Ignore the red, so 1 blue item remains. Icons present! Ace sets to 1. Rule forces 1 to 0."
                        },
                        {
                            "isInfo":  false,
@@ -511,10 +511,10 @@
                                      ],
                            "wildcardName":  "Ace of Spades",
                            "roundId":  8,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red icons.",
                            "target":  0,
                            "wildcardId":  7,
-                           "explanation":  "Count the red shapes. The only item is a red star, which we MUST ignore. True visible icons = 0. Base count = 0. Target 0!"
+                           "explanation":  "Count the red icons. The only item is a red star, which we MUST ignore. True visible icons = 0. Base count = 0. Target 0!"
                        },
                        {
                            "isInfo":  false,
@@ -634,10 +634,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  7,
-                           "prompt":  "Ignore all blue shapes.",
+                           "prompt":  "Ignore all blue objects.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Info: Ignore all blue shapes."
+                           "explanation":  "Info: Ignore all blue objects."
                        },
                        {
                            "isInfo":  false,
@@ -653,10 +653,10 @@
                                      ],
                            "wildcardName":  "Ace of Spades",
                            "roundId":  8,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red objects.",
                            "target":  6,
                            "wildcardId":  7,
-                           "explanation":  "Count the red shapes. We ignore the blue square. The red square counts as a present icon! Ace restricts to 1. Rule bumps to 6."
+                           "explanation":  "Count the red objects. We ignore the blue square. The red square counts as a present icon! Ace restricts to 1. Rule bumps to 6."
                        },
                        {
                            "isInfo":  false,
@@ -740,10 +740,10 @@
                                      ],
                            "wildcardName":  "Ace of Spades",
                            "roundId":  4,
-                           "prompt":  "Count the blue shapes.",
+                           "prompt":  "Count the blue items.",
                            "target":  1,
                            "wildcardId":  7,
-                           "explanation":  "Count the blue shapes. 2 icons present! Ace limits target to 1."
+                           "explanation":  "Count the blue items. 2 icons present! Ace limits target to 1."
                        },
                        {
                            "isInfo":  false,
@@ -1042,10 +1042,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  6,
-                           "prompt":  "Only count red shapes.",
+                           "prompt":  "Only count red items.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Info: Only count red shapes."
+                           "explanation":  "Info: Only count red items."
                        },
                        {
                            "isInfo":  false,
@@ -1345,10 +1345,10 @@
                                      ],
                            "wildcardName":  "Ornate Carousel Horse",
                            "roundId":  8,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red objects.",
                            "target":  3,
                            "wildcardId":  8,
-                           "explanation":  "Count the red shapes. Carousel divides the 2 shapes -\u003e 1. Rule 2 intercepts and pushes to 3!"
+                           "explanation":  "Count the red objects. Carousel divides the 2 objects -\u003e 1. Rule 2 intercepts and pushes to 3!"
                        },
                        {
                            "isInfo":  false,
@@ -1687,10 +1687,10 @@
                                      ],
                            "wildcardName":  "Ace of Spades",
                            "roundId":  5,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red items.",
                            "target":  1,
                            "wildcardId":  7,
-                           "explanation":  "Count the red shapes. Base count is 0. 0 is mathematically even! Rule intervenes and turns the 0 into a 1."
+                           "explanation":  "Count the red items. Base count is 0. 0 is mathematically even! Rule intervenes and turns the 0 into a 1."
                        },
                        {
                            "isInfo":  true,
@@ -1822,10 +1822,10 @@
                                      ],
                            "wildcardName":  "Joker Playing Card",
                            "roundId":  5,
-                           "prompt":  "Count the green shapes.",
+                           "prompt":  "Count the green icons.",
                            "target":  3,
                            "wildcardId":  6,
-                           "explanation":  "Count green shapes. Joker base 0. Rule sets to 3!"
+                           "explanation":  "Count green icons. Joker base 0. Rule sets to 3!"
                        },
                        {
                            "isInfo":  true,
@@ -1834,10 +1834,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  6,
-                           "prompt":  "All shapes are blue.",
+                           "prompt":  "All icons are blue.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Info: All shapes are blue."
+                           "explanation":  "Info: All icons are blue."
                        },
                        {
                            "isInfo":  false,
@@ -1849,10 +1849,10 @@
                                      ],
                            "wildcardName":  "Joker Playing Card",
                            "roundId":  7,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red icons.",
                            "target":  3,
                            "wildcardId":  6,
-                           "explanation":  "Count red shapes. Joker base 0. Rule sets to 3!"
+                           "explanation":  "Count red icons. Joker base 0. Rule sets to 3!"
                        },
                        {
                            "isInfo":  false,
@@ -1864,10 +1864,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  8,
-                           "prompt":  "Count the blue shapes.",
+                           "prompt":  "Count the blue icons.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Count blue shapes. 1 physically red circle acts as blue. Count is 1. Target resolves to 1."
+                           "explanation":  "Count blue icons. 1 physically red circle acts as blue. Count is 1. Target resolves to 1."
                        },
                        {
                            "isInfo":  false,
@@ -2004,10 +2004,10 @@
                                      ],
                            "wildcardName":  "Joker Playing Card",
                            "roundId":  9,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red objects.",
                            "target":  7,
                            "wildcardId":  6,
-                           "explanation":  "Count red shapes. Joker zeroes the count. Rule intercepts and forces 7."
+                           "explanation":  "Count red objects. Joker zeroes the count. Rule intercepts and forces 7."
                        },
                        {
                            "isInfo":  false,
@@ -2084,10 +2084,10 @@
                                      ],
                            "wildcardName":  "Joker Playing Card",
                            "roundId":  4,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red items.",
                            "target":  1,
                            "wildcardId":  6,
-                           "explanation":  "Count red shapes. Joker sets target to 0. The rule bumps the 0 up to 1."
+                           "explanation":  "Count red items. Joker sets target to 0. The rule bumps the 0 up to 1."
                        },
                        {
                            "isInfo":  false,
@@ -2223,10 +2223,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  4,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red objects.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Count red shapes. 1 red square. Since no wildcards are restricting this, target freely resolves to 1."
+                           "explanation":  "Count red objects. 1 red square. Since no wildcards are restricting this, target freely resolves to 1."
                        },
                        {
                            "isInfo":  false,
@@ -2495,10 +2495,10 @@
                                      ],
                            "wildcardName":  "Joker Playing Card",
                            "roundId":  5,
-                           "prompt":  "Count the total shapes.",
+                           "prompt":  "Count the total items.",
                            "target":  1,
                            "wildcardId":  6,
-                           "explanation":  "Count total shapes. Joker forces the count to 0. The rule pops it up to a 1."
+                           "explanation":  "Count total items. Joker forces the count to 0. The rule pops it up to a 1."
                        },
                        {
                            "isInfo":  true,
@@ -2522,10 +2522,10 @@
                                      ],
                            "wildcardName":  "Joker Playing Card",
                            "roundId":  7,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red items.",
                            "target":  1,
                            "wildcardId":  6,
-                           "explanation":  "Count red shapes. Joker forces the count to 0. The rule pops it up to a 1."
+                           "explanation":  "Count red items. Joker forces the count to 0. The rule pops it up to a 1."
                        },
                        {
                            "isInfo":  false,
@@ -3010,10 +3010,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  1,
-                           "prompt":  "How many blue shapes?",
+                           "prompt":  "How many blue icons?",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "The prompt asks for blue shapes. There is exactly 1 blue circle. Tap 1 time."
+                           "explanation":  "The prompt asks for blue icons. There is exactly 1 blue circle. Tap 1 time."
                        },
                        {
                            "isInfo":  false,
@@ -3029,10 +3029,10 @@
                                      ],
                            "wildcardName":  "Vintage Carnival Ticket",
                            "roundId":  2,
-                           "prompt":  "How many red shapes?",
+                           "prompt":  "How many red icons?",
                            "target":  1,
                            "wildcardId":  1,
-                           "explanation":  "The prompt asks for red shapes. There are none (0). But the Vintage Carnival Ticket adds +1. 0 + 1 = 1 tap."
+                           "explanation":  "The prompt asks for red icons. There are none (0). But the Vintage Carnival Ticket adds +1. 0 + 1 = 1 tap."
                        },
                        {
                            "isInfo":  true,
@@ -3064,10 +3064,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  4,
-                           "prompt":  "Count the green shapes.",
+                           "prompt":  "Count the green icons.",
                            "target":  2,
                            "wildcardId":  0,
-                           "explanation":  "The prompt asks to count \u0027green\u0027 shapes. Based on Round 3, the word \u0027green\u0027 literally means \u0027two\u0027. Ignoring the screen icons completely, the answer is exactly 2."
+                           "explanation":  "The prompt asks to count \u0027green\u0027 icons. Based on Round 3, the word \u0027green\u0027 literally means \u0027two\u0027. Ignoring the screen icons completely, the answer is exactly 2."
                        },
                        {
                            "isInfo":  false,
@@ -3083,10 +3083,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  5,
-                           "prompt":  "Count all shapes.",
+                           "prompt":  "Count all icons.",
                            "target":  3,
                            "wildcardId":  0,
-                           "explanation":  "The prompt says \u0027Count all shapes\u0027. There is 1 red circle and 1 green circle. That\u0027s 2 shapes total."
+                           "explanation":  "The prompt says \u0027Count all icons\u0027. There is 1 red circle and 1 green circle. That\u0027s 2 icons total."
                        },
                        {
                            "isInfo":  false,
@@ -3102,10 +3102,10 @@
                                      ],
                            "wildcardName":  "Vintage Carnival Ticket",
                            "roundId":  6,
-                           "prompt":  "How many total shapes?",
+                           "prompt":  "How many total icons?",
                            "target":  3,
                            "wildcardId":  1,
-                           "explanation":  "There are 2 shapes total (one red star, one blue star). The Vintage Carnival Ticket adds +1, making the final count 3."
+                           "explanation":  "There are 2 icons total (one red star, one blue star). The Vintage Carnival Ticket adds +1, making the final count 3."
                        },
                        {
                            "isInfo":  true,
@@ -3152,7 +3152,7 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  9,
-                           "prompt":  "How many total shapes?",
+                           "prompt":  "How many total icons?",
                            "target":  3,
                            "wildcardId":  0,
                            "explanation":  "A deeply compounding round! We must ignore the blue star (Round 7 rule). We have 1 red star, and the single green star counts as 2 (Round 3 rule \u0027Green means two\u0027). 1 + 2 = 3 taps!"
@@ -3286,10 +3286,10 @@
                                      ],
                            "wildcardName":  "Ace of Spades",
                            "roundId":  8,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red objects.",
                            "target":  3,
                            "wildcardId":  7,
-                           "explanation":  "Count red shapes. 3 icons are on screen! Ace of Spades sees icons and forces target to 1. First rule turns 1 to 0. Second rule turns 0 to 3! Perfect."
+                           "explanation":  "Count red objects. 3 icons are on screen! Ace of Spades sees icons and forces target to 1. First rule turns 1 to 0. Second rule turns 0 to 3! Perfect."
                        },
                        {
                            "isInfo":  false,
@@ -3560,10 +3560,10 @@
                                      ],
                            "wildcardName":  "Wooden Juggling Club",
                            "roundId":  5,
-                           "prompt":  "Count the blue shapes.",
+                           "prompt":  "Count the blue items.",
                            "target":  4,
                            "wildcardId":  10,
-                           "explanation":  "Count the blue shapes. neatly elegantly creatively successfully physically perfectly physically cleverly strictly physically mathematically structurally specifically effectively conceptually exclusively perfectly precisely visually effectively cleanly effectively perfectly uniquely reliably squarely exactly properly flawlessly exactly deeply solidly neatly cleanly definitively strictly exactly gracefully mathematically logically elegantly physically deeply elegantly cleanly intelligently legitimately smartly creatively uniquely safely exactly efficiently structurally functionally accurately specifically confidently solidly firmly securely deeply definitively cleanly precisely flawlessly precisely definitively safely efficiently seamlessly carefully precisely actively seamlessly safely intelligently formally 4."
+                           "explanation":  "Count the blue items. neatly elegantly creatively successfully physically perfectly physically cleverly strictly physically mathematically structurally specifically effectively conceptually exclusively perfectly precisely visually effectively cleanly effectively perfectly uniquely reliably squarely exactly properly flawlessly exactly deeply solidly neatly cleanly definitively strictly exactly gracefully mathematically logically elegantly physically deeply elegantly cleanly intelligently legitimately smartly creatively uniquely safely exactly efficiently structurally functionally accurately specifically confidently solidly firmly securely deeply definitively cleanly precisely flawlessly precisely definitively safely efficiently seamlessly carefully precisely actively seamlessly safely intelligently formally 4."
                        },
                        {
                            "isInfo":  true,
@@ -3572,10 +3572,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  6,
-                           "prompt":  "Ignore all blue shapes.",
+                           "prompt":  "Ignore all blue items.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Info: Ignore all blue shapes."
+                           "explanation":  "Info: Ignore all blue items."
                        },
                        {
                            "isInfo":  false,
@@ -3720,10 +3720,10 @@
                                      ],
                            "wildcardName":  "Wooden Juggling Club",
                            "roundId":  6,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red icons.",
                            "target":  0,
                            "wildcardId":  10,
-                           "explanation":  "Count the red shapes. purely deeply naturally elegantly precisely logically perfectly cleanly intelligently intelligently cleanly beautifully smoothly dynamically efficiently perfectly efficiently effectively smoothly explicitly properly expertly smoothly conceptually smoothly beautifully carefully smoothly visually deeply expertly purely securely definitively squarely precisely securely intelligently perfectly technically accurately dynamically purely flawlessly intelligently explicitly distinctly elegantly purely brilliantly flawlessly carefully cleanly efficiently completely precisely correctly cleanly functionally explicitly actively intelligently purely smoothly functionally smoothly fully physically definitively legitimately cleanly successfully smartly solidly intelligently smoothly squarely perfectly brilliantly legitimately correctly actively efficiently conceptually successfully flawlessly effectively cleanly correctly properly correctly physically firmly legitimately correctly specifically gracefully precisely safely exclusively securely 0."
+                           "explanation":  "Count the red icons. purely deeply naturally elegantly precisely logically perfectly cleanly intelligently intelligently cleanly beautifully smoothly dynamically efficiently perfectly efficiently effectively smoothly explicitly properly expertly smoothly conceptually smoothly beautifully carefully smoothly visually deeply expertly purely securely definitively squarely precisely securely intelligently perfectly technically accurately dynamically purely flawlessly intelligently explicitly distinctly elegantly purely brilliantly flawlessly carefully cleanly efficiently completely precisely correctly cleanly functionally explicitly actively intelligently purely smoothly functionally smoothly fully physically definitively legitimately cleanly successfully smartly solidly intelligently smoothly squarely perfectly brilliantly legitimately correctly actively efficiently conceptually successfully flawlessly effectively cleanly correctly properly correctly physically firmly legitimately correctly specifically gracefully precisely safely exclusively securely 0."
                        },
                        {
                            "isInfo":  false,
@@ -3877,10 +3877,10 @@
                                      ],
                            "wildcardName":  "Wooden Juggling Club",
                            "roundId":  6,
-                           "prompt":  "Count the blue shapes.",
+                           "prompt":  "Count the blue objects.",
                            "target":  4,
                            "wildcardId":  10,
-                           "explanation":  "Count the blue shapes. 4."
+                           "explanation":  "Count the blue objects. 4."
                        },
                        {
                            "isInfo":  false,
@@ -4296,10 +4296,10 @@
                                      ],
                            "wildcardName":  "Wooden Juggling Club",
                            "roundId":  5,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red objects.",
                            "target":  4,
                            "wildcardId":  10,
-                           "explanation":  "Count the red shapes. purely precisely mathematically physically securely gracefully smoothly smartly structurally reliably seamlessly uniquely brilliantly visually thoroughly properly seamlessly purely securely cleverly successfully elegantly confidently cleanly exactly smartly smartly expertly cleanly successfully functionally properly elegantly neatly smartly neatly elegantly correctly physically uniquely cleanly cleanly intelligently naturally securely flawlessly solidly safely efficiently smoothly directly appropriately intelligently specifically confidently exactly distinctly precisely correctly completely purely brilliantly effectively smoothly smoothly flawlessly cleanly securely elegantly brilliantly seamlessly brilliantly perfectly exactly gracefully distinctly correctly smartly smoothly neatly completely practically seamlessly smoothly efficiently safely exclusively accurately flawlessly intelligently effectively purely expertly safely reliably exactly specifically smoothly dynamically smoothly cleanly safely perfectly logically reliably natively efficiently gracefully uniquely flawlessly smoothly efficiently seamlessly exactly smoothly correctly efficiently exactly definitely seamlessly efficiently efficiently smartly natively securely uniquely explicitly flawlessly securely cleanly dynamically appropriately efficiently accurately efficiently exactly gracefully securely mathematically carefully elegantly reliably logically neatly expertly intelligently properly purely definitively effectively 4."
+                           "explanation":  "Count the red objects. purely precisely mathematically physically securely gracefully smoothly smartly structurally reliably seamlessly uniquely brilliantly visually thoroughly properly seamlessly purely securely cleverly successfully elegantly confidently cleanly exactly smartly smartly expertly cleanly successfully functionally properly elegantly neatly smartly neatly elegantly correctly physically uniquely cleanly cleanly intelligently naturally securely flawlessly solidly safely efficiently smoothly directly appropriately intelligently specifically confidently exactly distinctly precisely correctly completely purely brilliantly effectively smoothly smoothly flawlessly cleanly securely elegantly brilliantly seamlessly brilliantly perfectly exactly gracefully distinctly correctly smartly smoothly neatly completely practically seamlessly smoothly efficiently safely exclusively accurately flawlessly intelligently effectively purely expertly safely reliably exactly specifically smoothly dynamically smoothly cleanly safely perfectly logically reliably natively efficiently gracefully uniquely flawlessly smoothly efficiently seamlessly exactly smoothly correctly efficiently exactly definitely seamlessly efficiently efficiently smartly natively securely uniquely explicitly flawlessly securely cleanly dynamically appropriately efficiently accurately efficiently exactly gracefully securely mathematically carefully elegantly reliably logically neatly expertly intelligently properly purely definitively effectively 4."
                        },
                        {
                            "isInfo":  true,
@@ -4625,10 +4625,10 @@
                                      ],
                            "wildcardName":  "Wooden Juggling Club",
                            "roundId":  7,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red items.",
                            "target":  2,
                            "wildcardId":  10,
-                           "explanation":  "Count the red shapes. 2."
+                           "explanation":  "Count the red items. 2."
                        },
                        {
                            "isInfo":  false,
@@ -4834,10 +4834,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  8,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red icons.",
                            "target":  0,
                            "wildcardId":  0,
-                           "explanation":  "Count the red shapes. 0."
+                           "explanation":  "Count the red icons. 0."
                        },
                        {
                            "isInfo":  false,
@@ -4924,10 +4924,10 @@
                                      ],
                            "wildcardName":  "Wooden Juggling Club",
                            "roundId":  4,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red items.",
                            "target":  2,
                            "wildcardId":  10,
-                           "explanation":  "Count the red shapes. 2."
+                           "explanation":  "Count the red items. 2."
                        },
                        {
                            "isInfo":  false,
@@ -5081,10 +5081,10 @@
                                      ],
                            "wildcardName":  "Wooden Juggling Club",
                            "roundId":  3,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red icons.",
                            "target":  4,
                            "wildcardId":  10,
-                           "explanation":  "Count the red shapes. 4."
+                           "explanation":  "Count the red icons. 4."
                        },
                        {
                            "isInfo":  false,
@@ -5258,10 +5258,10 @@
                                      ],
                            "wildcardName":  "Wooden Juggling Club",
                            "roundId":  4,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red objects.",
                            "target":  8,
                            "wildcardId":  10,
-                           "explanation":  "Count the red shapes. 8."
+                           "explanation":  "Count the red objects. 8."
                        },
                        {
                            "isInfo":  true,
@@ -5270,10 +5270,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  5,
-                           "prompt":  "Ignore all red shapes.",
+                           "prompt":  "Ignore all red objects.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Info: Ignore all red shapes."
+                           "explanation":  "Info: Ignore all red objects."
                        },
                        {
                            "isInfo":  false,
@@ -6037,10 +6037,10 @@
                                      ],
                            "wildcardName":  "Ornate Carousel Horse",
                            "roundId":  5,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red icons.",
                            "target":  3,
                            "wildcardId":  8,
-                           "explanation":  "Count the red shapes. 1 shape. Carousel 1/2 = 0. Rule elegantly intercepts and forces to 3."
+                           "explanation":  "Count the red icons. 1 icon. Carousel 1/2 = 0. Rule elegantly intercepts and forces to 3."
                        },
                        {
                            "isInfo":  true,
@@ -6049,10 +6049,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  6,
-                           "prompt":  "All shapes are red.",
+                           "prompt":  "All icons are red.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Info: All shapes are red."
+                           "explanation":  "Info: All icons are red."
                        },
                        {
                            "isInfo":  false,
@@ -6068,10 +6068,10 @@
                                      ],
                            "wildcardName":  "Ornate Carousel Horse",
                            "roundId":  7,
-                           "prompt":  "Count the blue shapes.",
+                           "prompt":  "Count the blue icons.",
                            "target":  3,
                            "wildcardId":  8,
-                           "explanation":  "Count the blue shapes. There are 2 shapes, but both act as RED! So count of blue = 0. Carousel 0/2 = 0. Rule forces it to precisely 3!"
+                           "explanation":  "Count the blue icons. There are 2 icons, but both act as RED! So count of blue = 0. Carousel 0/2 = 0. Rule forces it to precisely 3!"
                        },
                        {
                            "isInfo":  false,
@@ -7039,10 +7039,10 @@
                                      ],
                            "wildcardName":  "Vintage Carnival Ticket",
                            "roundId":  4,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red objects.",
                            "target":  3,
                            "wildcardId":  1,
-                           "explanation":  "Count red shapes. There are 2 red shapes. The Ticket adds 1, making it 3. 3 is odd, so we keep it at 3."
+                           "explanation":  "Count red objects. There are 2 red objects. The Ticket adds 1, making it 3. 3 is odd, so we keep it at 3."
                        },
                        {
                            "isInfo":  false,
@@ -7054,10 +7054,10 @@
                                      ],
                            "wildcardName":  "White Rabbit",
                            "roundId":  5,
-                           "prompt":  "Count the blue shapes.",
+                           "prompt":  "Count the blue objects.",
                            "target":  0,
                            "wildcardId":  3,
-                           "explanation":  "Count blue shapes. There is exactly 1. The White Rabbit makes it 2. Since 2 is even, our rule squashes the target to 0."
+                           "explanation":  "Count blue objects. There is exactly 1. The White Rabbit makes it 2. Since 2 is even, our rule squashes the target to 0."
                        },
                        {
                            "isInfo":  false,
@@ -7078,10 +7078,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  7,
-                           "prompt":  "All shapes are red.",
+                           "prompt":  "All objects are red.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Info round: All shapes on the board are now magically considered RED."
+                           "explanation":  "Info round: All objects on the board are now magically considered RED."
                        },
                        {
                            "isInfo":  false,
@@ -7101,10 +7101,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  8,
-                           "prompt":  "Count the blue shapes.",
+                           "prompt":  "Count the blue objects.",
                            "target":  0,
                            "wildcardId":  0,
-                           "explanation":  "Count blue shapes. There are physically 3 shapes, but our brand new rule says they are all RED. Thus, there are 0 blue shapes left. Target is 0."
+                           "explanation":  "Count blue objects. There are physically 3 objects, but our brand new rule says they are all RED. Thus, there are 0 blue objects left. Target is 0."
                        },
                        {
                            "isInfo":  false,
@@ -7124,10 +7124,10 @@
                                      ],
                            "wildcardName":  "White Rabbit",
                            "roundId":  9,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red objects.",
                            "target":  0,
                            "wildcardId":  3,
-                           "explanation":  "Count red shapes. There are 3 visual shapes, which are all considered red! We have 3. The White Rabbit multiplies by 2, making 6. Since 6 is an even number, our previous rule zeroes the target out to 0."
+                           "explanation":  "Count red objects. There are 3 visual objects, which are all considered red! We have 3. The White Rabbit multiplies by 2, making 6. Since 6 is an even number, our previous rule zeroes the target out to 0."
                        },
                        {
                            "isInfo":  false,
@@ -7172,10 +7172,10 @@
                                      ],
                            "wildcardName":  "White Rabbit",
                            "roundId":  2,
-                           "prompt":  "Count the black shapes.",
+                           "prompt":  "Count the black items.",
                            "target":  4,
                            "wildcardId":  3,
-                           "explanation":  "Count the black shapes. There are 2. The White Rabbit multiplies by 2. 2 x 2 = 4."
+                           "explanation":  "Count the black items. There are 2. The White Rabbit multiplies by 2. 2 x 2 = 4."
                        },
                        {
                            "isInfo":  true,
@@ -7381,10 +7381,10 @@
                                      ],
                            "wildcardName":  "Vintage Carnival Ticket",
                            "roundId":  7,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red icons.",
                            "target":  0,
                            "wildcardId":  1,
-                           "explanation":  "Count red shapes. 1 red circle. The Ticket (+1) brings the count to 2. Our rule catches the 2 and zeroes it."
+                           "explanation":  "Count red icons. 1 red circle. The Ticket (+1) brings the count to 2. Our rule catches the 2 and zeroes it."
                        },
                        {
                            "isInfo":  false,
@@ -7404,10 +7404,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  8,
-                           "prompt":  "Count the blue shapes.",
+                           "prompt":  "Count the blue icons.",
                            "target":  3,
                            "wildcardId":  0,
-                           "explanation":  "Count blue shapes. We see 3. No wildcards, target is 3."
+                           "explanation":  "Count blue icons. We see 3. No wildcards, target is 3."
                        },
                        {
                            "isInfo":  false,
@@ -7839,10 +7839,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  7,
-                           "prompt":  "Count the green shapes.",
+                           "prompt":  "Count the green icons.",
                            "target":  4,
                            "wildcardId":  0,
-                           "explanation":  "Count the green shapes. There are exactly 4 green stars. Target is 4."
+                           "explanation":  "Count the green icons. There are exactly 4 green stars. Target is 4."
                        },
                        {
                            "isInfo":  true,
@@ -8135,10 +8135,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  7,
-                           "prompt":  "Tap the number of shapes.",
+                           "prompt":  "Tap the number of objects.",
                            "target":  4,
                            "wildcardId":  0,
-                           "explanation":  "There are exactly 4 green shapes on the screen. No wildcard active, so the answer is 4."
+                           "explanation":  "There are exactly 4 green objects on the screen. No wildcard active, so the answer is 4."
                        },
                        {
                            "isInfo":  false,
@@ -8162,7 +8162,7 @@
                                      ],
                            "wildcardName":  "Vintage Carnival Ticket",
                            "roundId":  8,
-                           "prompt":  "How many shapes are there?",
+                           "prompt":  "How many objects are there?",
                            "target":  5,
                            "wildcardId":  1,
                            "explanation":  "There are exactly 4 red hearts. The Vintage Carnival Ticket is active, adding +1. 4 + 1 = 5 taps."
@@ -8228,10 +8228,10 @@
                                      ],
                            "wildcardName":  "Magician\u0027s Wand",
                            "roundId":  2,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red items.",
                            "target":  2,
                            "wildcardId":  4,
-                           "explanation":  "Count the red shapes. There are exactly 2 red squares. Now introducing the Magician\u0027s Wand wildcard: a flashy but empty gesture. It does not numerically alter the count! Target remains 2."
+                           "explanation":  "Count the red items. There are exactly 2 red squares. Now introducing the Magician\u0027s Wand wildcard: a flashy but empty gesture. It does not numerically alter the count! Target remains 2."
                        },
                        {
                            "isInfo":  true,
@@ -8263,10 +8263,10 @@
                                      ],
                            "wildcardName":  "Magician\u0027s Wand",
                            "roundId":  4,
-                           "prompt":  "Count the blue shapes.",
+                           "prompt":  "Count the blue items.",
                            "target":  3,
                            "wildcardId":  4,
-                           "explanation":  "Count the blue shapes. 3 blue circles. The Magician\u0027s Wand distracts us but changes nothing. Target is 3."
+                           "explanation":  "Count the blue items. 3 blue circles. The Magician\u0027s Wand distracts us but changes nothing. Target is 3."
                        },
                        {
                            "isInfo":  false,
@@ -8306,10 +8306,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  7,
-                           "prompt":  "Count the green shapes.",
+                           "prompt":  "Count the green items.",
                            "target":  2,
                            "wildcardId":  0,
-                           "explanation":  "Count the green shapes. 2 green stars. Target is 2."
+                           "explanation":  "Count the green items. 2 green stars. Target is 2."
                        },
                        {
                            "isInfo":  true,
@@ -8345,10 +8345,10 @@
                                      ],
                            "wildcardName":  "Velvet Top Hat",
                            "roundId":  10,
-                           "prompt":  "Count the total shapes.",
+                           "prompt":  "Count the total items.",
                            "target":  0,
                            "wildcardId":  2,
-                           "explanation":  "Count total shapes. Just 1 black circle. The Top Hat subtracts 1, leaving us with exactly 0. Target is 0."
+                           "explanation":  "Count total items. Just 1 black circle. The Top Hat subtracts 1, leaving us with exactly 0. Target is 0."
                        }
                    ]
     },
@@ -8456,10 +8456,10 @@
                                      ],
                            "wildcardName":  "White Rabbit",
                            "roundId":  7,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red objects.",
                            "target":  10,
                            "wildcardId":  3,
-                           "explanation":  "Count red shapes. There are 5 red squares. The White Rabbit (*2) makes this 10! Unaffected by the 0-rule."
+                           "explanation":  "Count red objects. There are 5 red squares. The White Rabbit (*2) makes this 10! Unaffected by the 0-rule."
                        },
                        {
                            "isInfo":  false,
@@ -8524,10 +8524,10 @@
                                      ],
                            "wildcardName":  "Velvet Top Hat",
                            "roundId":  2,
-                           "prompt":  "Count the blue shapes.",
+                           "prompt":  "Count the blue items.",
                            "target":  0,
                            "wildcardId":  2,
-                           "explanation":  "Count blue shapes. 1 blue square. The Top Hat subtracts 1, bringing us to 0. Target is 0."
+                           "explanation":  "Count blue items. 1 blue square. The Top Hat subtracts 1, bringing us to 0. Target is 0."
                        },
                        {
                            "isInfo":  true,
@@ -8536,10 +8536,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  3,
-                           "prompt":  "Ignore all red shapes.",
+                           "prompt":  "Ignore all red items.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Info round: Ignore all red shapes."
+                           "explanation":  "Info round: Ignore all red items."
                        },
                        {
                            "isInfo":  false,
@@ -8691,10 +8691,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  2,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red icons.",
                            "target":  6,
                            "wildcardId":  0,
-                           "explanation":  "Count red shapes. Exactly 6 are on the board. Target 6."
+                           "explanation":  "Count red icons. Exactly 6 are on the board. Target 6."
                        },
                        {
                            "isInfo":  true,
@@ -8726,10 +8726,10 @@
                                      ],
                            "wildcardName":  "White Rabbit",
                            "roundId":  4,
-                           "prompt":  "Count the green shapes.",
+                           "prompt":  "Count the green icons.",
                            "target":  2,
                            "wildcardId":  3,
-                           "explanation":  "Count green shapes. We see 1 green square, and 2 green circles. Because we only count squares, there is only 1 valid item. The White Rabbit (*2) converts this 1 into a 2."
+                           "explanation":  "Count green icons. We see 1 green square, and 2 green circles. Because we only count squares, there is only 1 valid item. The White Rabbit (*2) converts this 1 into a 2."
                        },
                        {
                            "isInfo":  true,
@@ -8804,10 +8804,10 @@
                                      ],
                            "wildcardName":  "White Rabbit",
                            "roundId":  9,
-                           "prompt":  "Count the blue shapes.",
+                           "prompt":  "Count the blue icons.",
                            "target":  4,
                            "wildcardId":  3,
-                           "explanation":  "Count blue shapes. There is a blue square and a blue circle. Because we only count squares, we find exactly 1. The White Rabbit multiplies (*2), so 1 becomes 2. The persistent rule then takes that 2 and makes it a 4!"
+                           "explanation":  "Count blue icons. There is a blue square and a blue circle. Because we only count squares, we find exactly 1. The White Rabbit multiplies (*2), so 1 becomes 2. The persistent rule then takes that 2 and makes it a 4!"
                        },
                        {
                            "isInfo":  false,
@@ -9569,7 +9569,7 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  1,
-                           "prompt":  "Welcome to the Carnival.\nA single tap acknowledges.",
+                           "prompt":  "Tap wisely!\nA single tap acknowledges.",
                            "target":  1,
                            "wildcardId":  0,
                            "explanation":  "This is an informational round. No tapping required, just read the prompt and advance."
@@ -9724,10 +9724,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  3,
-                           "prompt":  "How many blue shapes?",
+                           "prompt":  "How many blue items?",
                            "target":  0,
                            "wildcardId":  0,
-                           "explanation":  "How many blue shapes? The text asks about blue shapes, but since we are ignoring icons completely, we see 0. Target is 0."
+                           "explanation":  "How many blue items? The text asks about blue items, but since we are ignoring icons completely, we see 0. Target is 0."
                        },
                        {
                            "isInfo":  false,
@@ -9931,10 +9931,10 @@
                                      ],
                            "wildcardName":  "Wooden Juggling Club",
                            "roundId":  7,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red icons.",
                            "target":  4,
                            "wildcardId":  10,
-                           "explanation":  "Count the red shapes. 4."
+                           "explanation":  "Count the red icons. 4."
                        },
                        {
                            "isInfo":  false,
@@ -10003,10 +10003,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  2,
-                           "prompt":  "Count the black shapes.",
+                           "prompt":  "Count the black items.",
                            "target":  2,
                            "wildcardId":  0,
-                           "explanation":  "There are exactly 2 black shapes on the board. No tricks yet, so the answer is 2."
+                           "explanation":  "There are exactly 2 black items on the board. No tricks yet, so the answer is 2."
                        },
                        {
                            "isInfo":  false,
@@ -10022,10 +10022,10 @@
                                      ],
                            "wildcardName":  "Velvet Top Hat",
                            "roundId":  3,
-                           "prompt":  "Count the green shapes.",
+                           "prompt":  "Count the green items.",
                            "target":  1,
                            "wildcardId":  2,
-                           "explanation":  "There are 2 green shapes on the board. The Top Hat wildcard subtracts 1, dropping our required taps to 1."
+                           "explanation":  "There are 2 green items on the board. The Top Hat wildcard subtracts 1, dropping our required taps to 1."
                        },
                        {
                            "isInfo":  true,
@@ -10081,10 +10081,10 @@
                                      ],
                            "wildcardName":  "Velvet Top Hat",
                            "roundId":  7,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red items.",
                            "target":  0,
                            "wildcardId":  2,
-                           "explanation":  "We see 3 red shapes on the board. The Top Hat subtracts 1, bringing the count to 2. Since 2 is an even number, our persistent rule wipes the count to 0."
+                           "explanation":  "We see 3 red items on the board. The Top Hat subtracts 1, bringing the count to 2. Since 2 is an even number, our persistent rule wipes the count to 0."
                        },
                        {
                            "isInfo":  false,
@@ -10806,10 +10806,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  6,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red objects.",
                            "target":  5,
                            "wildcardId":  0,
-                           "explanation":  "We are told to count red shapes. There are 2 red squares, but our rule says to ignore them, leaving 0. Because our count is 0, the next persistent rule changes our answer to 5."
+                           "explanation":  "We are told to count red objects. There are 2 red squares, but our rule says to ignore them, leaving 0. Because our count is 0, the next persistent rule changes our answer to 5."
                        },
                        {
                            "isInfo":  false,
@@ -10929,10 +10929,10 @@
                                      ],
                            "wildcardName":  "Crystal Fortune Ball",
                            "roundId":  4,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red objects.",
                            "target":  6,
                            "wildcardId":  5,
-                           "explanation":  "Count red shapes. 1 red circle. 1 is odd -\u003e 0 -\u003e 6!"
+                           "explanation":  "Count red objects. 1 red circle. 1 is odd -\u003e 0 -\u003e 6!"
                        },
                        {
                            "isInfo":  false,
@@ -10948,10 +10948,10 @@
                                      ],
                            "wildcardName":  "Crystal Fortune Ball",
                            "roundId":  5,
-                           "prompt":  "Count the blue shapes.",
+                           "prompt":  "Count the blue objects.",
                            "target":  2,
                            "wildcardId":  5,
-                           "explanation":  "Count blue shapes. 2 blue squares. 2 is even. Target 2."
+                           "explanation":  "Count blue objects. 2 blue squares. 2 is even. Target 2."
                        },
                        {
                            "isInfo":  false,
@@ -10987,10 +10987,10 @@
                                      ],
                            "wildcardName":  "Crystal Fortune Ball",
                            "roundId":  8,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red objects.",
                            "target":  6,
                            "wildcardId":  5,
-                           "explanation":  "Count red shapes. 1 red square. Since we only count stars, we ignore the square. Count is 0! The rule catches the 0 and bumps it to 6!"
+                           "explanation":  "Count red objects. 1 red square. Since we only count stars, we ignore the square. Count is 0! The rule catches the 0 and bumps it to 6!"
                        },
                        {
                            "isInfo":  false,
@@ -11098,10 +11098,10 @@
                                      ],
                            "wildcardName":  "Crystal Fortune Ball",
                            "roundId":  5,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red items.",
                            "target":  0,
                            "wildcardId":  5,
-                           "explanation":  "Count red shapes. 4 red circles. Target initially evaluates to 4. Our persistent rule sees the 4 and zeroes it to 0."
+                           "explanation":  "Count red items. 4 red circles. Target initially evaluates to 4. Our persistent rule sees the 4 and zeroes it to 0."
                        },
                        {
                            "isInfo":  false,
@@ -11113,10 +11113,10 @@
                                      ],
                            "wildcardName":  "Crystal Fortune Ball",
                            "roundId":  6,
-                           "prompt":  "Count the blue shapes.",
+                           "prompt":  "Count the blue items.",
                            "target":  0,
                            "wildcardId":  5,
-                           "explanation":  "Count blue shapes. 1 blue circle. 1 is odd -\u003e Fortune ball makes it 0."
+                           "explanation":  "Count blue items. 1 blue circle. 1 is odd -\u003e Fortune ball makes it 0."
                        },
                        {
                            "isInfo":  true,
@@ -11140,10 +11140,10 @@
                                      ],
                            "wildcardName":  "Crystal Fortune Ball",
                            "roundId":  8,
-                           "prompt":  "Count the green shapes.",
+                           "prompt":  "Count the green items.",
                            "target":  4,
                            "wildcardId":  5,
-                           "explanation":  "Count green shapes. 1 green circle. 1 is odd -\u003e Fortune ball forces to 0 -\u003e Rule sees the 0 and turns it to 4!"
+                           "explanation":  "Count green items. 1 green circle. 1 is odd -\u003e Fortune ball forces to 0 -\u003e Rule sees the 0 and turns it to 4!"
                        },
                        {
                            "isInfo":  false,
@@ -11260,10 +11260,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  5,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red icons.",
                            "target":  0,
                            "wildcardId":  0,
-                           "explanation":  "Count red shapes. 8 red circles on the board. The rule catches the 8 and zeroes it to 0."
+                           "explanation":  "Count red icons. 8 red circles on the board. The rule catches the 8 and zeroes it to 0."
                        },
                        {
                            "isInfo":  false,
@@ -11513,10 +11513,10 @@
                                      ],
                            "wildcardName":  "Crystal Fortune Ball",
                            "roundId":  2,
-                           "prompt":  "Count the total shapes.",
+                           "prompt":  "Count the total icons.",
                            "target":  0,
                            "wildcardId":  5,
-                           "explanation":  "Count total shapes. 3 shapes. 3 is odd, converted to 0."
+                           "explanation":  "Count total icons. 3 icons. 3 is odd, converted to 0."
                        },
                        {
                            "isInfo":  true,
@@ -11525,10 +11525,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  3,
-                           "prompt":  "All shapes are stars.",
+                           "prompt":  "All icons are stars.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Info: All shapes are stars."
+                           "explanation":  "Info: All icons are stars."
                        },
                        {
                            "isInfo":  false,
@@ -11834,10 +11834,10 @@
                                      ],
                            "wildcardName":  "Joker Playing Card",
                            "roundId":  4,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red objects.",
                            "target":  3,
                            "wildcardId":  6,
-                           "explanation":  "Count red shapes. The Joker forces the count to 0. Our rule bumps it back up to 3!"
+                           "explanation":  "Count red objects. The Joker forces the count to 0. Our rule bumps it back up to 3!"
                        },
                        {
                            "isInfo":  false,
@@ -12001,10 +12001,10 @@
                                      ],
                            "wildcardName":  "Joker Playing Card",
                            "roundId":  5,
-                           "prompt":  "Count the total shapes.",
+                           "prompt":  "Count the total items.",
                            "target":  7,
                            "wildcardId":  6,
-                           "explanation":  "Count total shapes. Joker zeroes it to 0. Rule bumps it up to a 7!"
+                           "explanation":  "Count total items. Joker zeroes it to 0. Rule bumps it up to a 7!"
                        },
                        {
                            "isInfo":  false,
@@ -12121,10 +12121,10 @@
                                      ],
                            "wildcardName":  "Joker Playing Card",
                            "roundId":  4,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red icons.",
                            "target":  4,
                            "wildcardId":  6,
-                           "explanation":  "Count red shapes. Joker forces to 0. Rule intercepts to 4."
+                           "explanation":  "Count red icons. Joker forces to 0. Rule intercepts to 4."
                        },
                        {
                            "isInfo":  false,
@@ -12145,10 +12145,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  6,
-                           "prompt":  "Ignore all blue shapes.",
+                           "prompt":  "Ignore all blue icons.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Info: Ignore all blue shapes."
+                           "explanation":  "Info: Ignore all blue icons."
                        },
                        {
                            "isInfo":  false,
@@ -12288,10 +12288,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  6,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red objects.",
                            "target":  2,
                            "wildcardId":  0,
-                           "explanation":  "Count red shapes. 2 squares. Target 2."
+                           "explanation":  "Count red objects. 2 squares. Target 2."
                        },
                        {
                            "isInfo":  true,
@@ -12300,10 +12300,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  7,
-                           "prompt":  "Ignore all red shapes.",
+                           "prompt":  "Ignore all red objects.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Info: Ignore all red shapes."
+                           "explanation":  "Info: Ignore all red objects."
                        },
                        {
                            "isInfo":  false,
@@ -12319,10 +12319,10 @@
                                      ],
                            "wildcardName":  "Crystal Fortune Ball",
                            "roundId":  8,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red objects.",
                            "target":  5,
                            "wildcardId":  5,
-                           "explanation":  "Count red shapes. You see 2, but must ignore them, resulting in 0. The first rule sees the 0 and upgrades it to 5!"
+                           "explanation":  "Count red objects. You see 2, but must ignore them, resulting in 0. The first rule sees the 0 and upgrades it to 5!"
                        },
                        {
                            "isInfo":  false,
@@ -12542,10 +12542,10 @@
                                      ],
                            "wildcardName":  "Vintage Carnival Ticket",
                            "roundId":  10,
-                           "prompt":  "How many white shapes?",
+                           "prompt":  "How many white items?",
                            "target":  1,
                            "wildcardId":  1,
-                           "explanation":  "The prompt asks for white shapes. Due to Round 7\u0027s rule, we only count yellow items (so 0 white shapes). However, the Vintage Carnival Ticket adds +1 to our total. 0 + 1 = 1 tap."
+                           "explanation":  "The prompt asks for white items. Due to Round 7\u0027s rule, we only count yellow items (so 0 white items). However, the Vintage Carnival Ticket adds +1 to our total. 0 + 1 = 1 tap."
                        }
                    ]
     },
@@ -12578,10 +12578,10 @@
                                      ],
                            "wildcardName":  "Joker Playing Card",
                            "roundId":  2,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red icons.",
                            "target":  0,
                            "wildcardId":  6,
-                           "explanation":  "Count red shapes. The Joker is active. Target is instantly 0."
+                           "explanation":  "Count red icons. The Joker is active. Target is instantly 0."
                        },
                        {
                            "isInfo":  true,
@@ -12613,10 +12613,10 @@
                                      ],
                            "wildcardName":  "Joker Playing Card",
                            "roundId":  4,
-                           "prompt":  "Count the blue shapes.",
+                           "prompt":  "Count the blue icons.",
                            "target":  0,
                            "wildcardId":  6,
-                           "explanation":  "Count blue shapes. The Joker forces it to 0."
+                           "explanation":  "Count blue icons. The Joker forces it to 0."
                        },
                        {
                            "isInfo":  false,
@@ -12656,10 +12656,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  7,
-                           "prompt":  "Count the green shapes.",
+                           "prompt":  "Count the green icons.",
                            "target":  2,
                            "wildcardId":  0,
-                           "explanation":  "Count green shapes. 2 shapes. No wildcard active! Target safely resolves to 2."
+                           "explanation":  "Count green icons. 2 icons. No wildcard active! Target safely resolves to 2."
                        },
                        {
                            "isInfo":  true,
@@ -12695,10 +12695,10 @@
                                      ],
                            "wildcardName":  "Crystal Fortune Ball",
                            "roundId":  10,
-                           "prompt":  "Count the total shapes.",
+                           "prompt":  "Count the total icons.",
                            "target":  0,
                            "wildcardId":  5,
-                           "explanation":  "Count total shapes. 1 shape. 1 is odd -\u003e Fortune Ball zeroes it out before the info rule even runs. Target 0."
+                           "explanation":  "Count total icons. 1 icon. 1 is odd -\u003e Fortune Ball zeroes it out before the info rule even runs. Target 0."
                        }
                    ]
     },
@@ -12863,10 +12863,10 @@
                                      ],
                            "wildcardName":  "Magician\u0027s Wand",
                            "roundId":  2,
-                           "prompt":  "Count the total shapes.",
+                           "prompt":  "Count the total items.",
                            "target":  3,
                            "wildcardId":  4,
-                           "explanation":  "Count total shapes. 3 circles on the board. Target 3."
+                           "explanation":  "Count total items. 3 circles on the board. Target 3."
                        },
                        {
                            "isInfo":  true,
@@ -12890,10 +12890,10 @@
                                      ],
                            "wildcardName":  "Magician\u0027s Wand",
                            "roundId":  4,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red items.",
                            "target":  1,
                            "wildcardId":  4,
-                           "explanation":  "Count red shapes. 1 red square. Since it\u0027s a square, it\u0027s valid. Target 1."
+                           "explanation":  "Count red items. 1 red square. Since it\u0027s a square, it\u0027s valid. Target 1."
                        },
                        {
                            "isInfo":  true,
@@ -13147,10 +13147,10 @@
                                      ],
                            "wildcardName":  "Magician\u0027s Wand",
                            "roundId":  4,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red icons.",
                            "target":  2,
                            "wildcardId":  4,
-                           "explanation":  "Count red shapes. 2 red circles. Target 2."
+                           "explanation":  "Count red icons. 2 red circles. Target 2."
                        },
                        {
                            "isInfo":  false,
@@ -13399,10 +13399,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  3,
-                           "prompt":  "Ignore all red shapes.",
+                           "prompt":  "Ignore all red icons.",
                            "target":  1,
                            "wildcardId":  0,
-                           "explanation":  "Info round: Ignore all red shapes."
+                           "explanation":  "Info round: Ignore all red icons."
                        },
                        {
                            "isInfo":  false,
@@ -13418,10 +13418,10 @@
                                      ],
                            "wildcardName":  "Magician\u0027s Wand",
                            "roundId":  4,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red icons.",
                            "target":  0,
                            "wildcardId":  4,
-                           "explanation":  "Count red shapes. There are 2, but we ignore them, leaving 0."
+                           "explanation":  "Count red icons. There are 2, but we ignore them, leaving 0."
                        },
                        {
                            "isInfo":  false,
@@ -13437,10 +13437,10 @@
                                      ],
                            "wildcardName":  "White Rabbit",
                            "roundId":  5,
-                           "prompt":  "Count the blue shapes.",
+                           "prompt":  "Count the blue icons.",
                            "target":  4,
                            "wildcardId":  3,
-                           "explanation":  "Count blue shapes. 2 blue squares. The White Rabbit multiplies by 2. 2 x 2 = 4."
+                           "explanation":  "Count blue icons. 2 blue squares. The White Rabbit multiplies by 2. 2 x 2 = 4."
                        },
                        {
                            "isInfo":  true,
@@ -13597,10 +13597,10 @@
                                      ],
                            "wildcardName":  "Magician\u0027s Wand",
                            "roundId":  7,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red objects.",
                            "target":  0,
                            "wildcardId":  4,
-                           "explanation":  "Count red shapes. 1 literal red circle. The 2 squares are visually blue/green, but rule says they act as red! So 3 red shapes total. 3 is odd -\u003e 0."
+                           "explanation":  "Count red objects. 1 literal red circle. The 2 squares are visually blue/green, but rule says they act as red! So 3 red objects total. 3 is odd -\u003e 0."
                        },
                        {
                            "isInfo":  false,
@@ -13673,7 +13673,7 @@
                                      ],
                            "wildcardName":  "Vintage Carnival Ticket",
                            "roundId":  2,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red icons.",
                            "target":  3,
                            "wildcardId":  1,
                            "explanation":  "There are 2 red squares. The Vintage Carnival Ticket wildcard adds +1. 2 + 1 = 3 taps."
@@ -13728,7 +13728,7 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  6,
-                           "prompt":  "Count the total shapes.",
+                           "prompt":  "Count the total icons.",
                            "target":  2,
                            "wildcardId":  0,
                            "explanation":  "There are exactly 2 green stars. No wildcard and the answer is not three, so tap 2 times."
@@ -13890,10 +13890,10 @@
                                      ],
                            "wildcardName":  "Crystal Fortune Ball",
                            "roundId":  5,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red objects.",
                            "target":  2,
                            "wildcardId":  5,
-                           "explanation":  "Count red shapes. 2 red circles. Fortune Ball leaves the even 2 alone. Target 2."
+                           "explanation":  "Count red objects. 2 red circles. Fortune Ball leaves the even 2 alone. Target 2."
                        },
                        {
                            "isInfo":  false,
@@ -13913,10 +13913,10 @@
                                      ],
                            "wildcardName":  "Crystal Fortune Ball",
                            "roundId":  6,
-                           "prompt":  "Count the blue shapes.",
+                           "prompt":  "Count the blue objects.",
                            "target":  2,
                            "wildcardId":  5,
-                           "explanation":  "Count blue shapes. 3 blue squares. Fortune Ball turns the odd 3 to a 0. Persistent rule turns 0 to 2."
+                           "explanation":  "Count blue objects. 3 blue squares. Fortune Ball turns the odd 3 to a 0. Persistent rule turns 0 to 2."
                        },
                        {
                            "isInfo":  false,
@@ -14041,10 +14041,10 @@
                                      ],
                            "wildcardName":  "Crystal Fortune Ball",
                            "roundId":  6,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red items.",
                            "target":  3,
                            "wildcardId":  5,
-                           "explanation":  "Count red shapes. Only 1 red circle. The odd 1 becomes 0, which the rule turns into a 3."
+                           "explanation":  "Count red items. Only 1 red circle. The odd 1 becomes 0, which the rule turns into a 3."
                        },
                        {
                            "isInfo":  false,
@@ -14084,10 +14084,10 @@
                                      ],
                            "wildcardName":  "Crystal Fortune Ball",
                            "roundId":  9,
-                           "prompt":  "Count the total shapes.",
+                           "prompt":  "Count the total items.",
                            "target":  2,
                            "wildcardId":  5,
-                           "explanation":  "Count total shapes. 2 shapes. 2 is even, no rules apply. Target is 2."
+                           "explanation":  "Count total items. 2 items. 2 is even, no rules apply. Target is 2."
                        },
                        {
                            "isInfo":  false,
@@ -14156,10 +14156,10 @@
                                      ],
                            "wildcardName":  "Magician\u0027s Wand",
                            "roundId":  4,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red objects.",
                            "target":  2,
                            "wildcardId":  4,
-                           "explanation":  "Count red shapes. 2 shapes. 2 is even, stays 2."
+                           "explanation":  "Count red objects. 2 objects. 2 is even, stays 2."
                        },
                        {
                            "isInfo":  false,
@@ -14292,10 +14292,10 @@
                                      ],
                            "wildcardName":  "Magician\u0027s Wand",
                            "roundId":  3,
-                           "prompt":  "Count the red shapes.",
+                           "prompt":  "Count the red items.",
                            "target":  6,
                            "wildcardId":  4,
-                           "explanation":  "Count red shapes. 6 red circles on board. Target 6."
+                           "explanation":  "Count red items. 6 red circles on board. Target 6."
                        },
                        {
                            "isInfo":  false,
@@ -14343,10 +14343,10 @@
                                      ],
                            "wildcardName":  "No Wildcard",
                            "roundId":  7,
-                           "prompt":  "Count the blue shapes.",
+                           "prompt":  "Count the blue items.",
                            "target":  6,
                            "wildcardId":  0,
-                           "explanation":  "Count blue shapes. 0 blue shapes on display. Rule upgrades the 0 to 6!"
+                           "explanation":  "Count blue items. 0 blue items on display. Rule upgrades the 0 to 6!"
                        },
                        {
                            "isInfo":  false,

@@ -1,0 +1,632 @@
+﻿[
+    {
+        "Level":  69,
+        "Round":  8,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red icons."
+    },
+    {
+        "Level":  66,
+        "Round":  2,
+        "SolutionsPrompt":  "Ignore all red shapes.",
+        "WorkspacePrompt":  "Ignore all red icons."
+    },
+    {
+        "Level":  66,
+        "Round":  6,
+        "SolutionsPrompt":  "Count the blue shapes.",
+        "WorkspacePrompt":  "Count the blue icons."
+    },
+    {
+        "Level":  66,
+        "Round":  8,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red icons."
+    },
+    {
+        "Level":  67,
+        "Round":  7,
+        "SolutionsPrompt":  "Ignore all blue shapes.",
+        "WorkspacePrompt":  "Ignore all blue objects."
+    },
+    {
+        "Level":  67,
+        "Round":  8,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red objects."
+    },
+    {
+        "Level":  68,
+        "Round":  4,
+        "SolutionsPrompt":  "Count the blue shapes.",
+        "WorkspacePrompt":  "Count the blue items."
+    },
+    {
+        "Level":  75,
+        "Round":  6,
+        "SolutionsPrompt":  "Only count red shapes.",
+        "WorkspacePrompt":  "Only count red items."
+    },
+    {
+        "Level":  71,
+        "Round":  8,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red objects."
+    },
+    {
+        "Level":  65,
+        "Round":  5,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red items."
+    },
+    {
+        "Level":  57,
+        "Round":  5,
+        "SolutionsPrompt":  "Count the green shapes.",
+        "WorkspacePrompt":  "Count the green icons."
+    },
+    {
+        "Level":  57,
+        "Round":  6,
+        "SolutionsPrompt":  "All shapes are blue.",
+        "WorkspacePrompt":  "All icons are blue."
+    },
+    {
+        "Level":  57,
+        "Round":  7,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red icons."
+    },
+    {
+        "Level":  57,
+        "Round":  8,
+        "SolutionsPrompt":  "Count the blue shapes.",
+        "WorkspacePrompt":  "Count the blue icons."
+    },
+    {
+        "Level":  58,
+        "Round":  9,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red objects."
+    },
+    {
+        "Level":  59,
+        "Round":  4,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red items."
+    },
+    {
+        "Level":  54,
+        "Round":  4,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red objects."
+    },
+    {
+        "Level":  56,
+        "Round":  5,
+        "SolutionsPrompt":  "Count the total shapes.",
+        "WorkspacePrompt":  "Count the total items."
+    },
+    {
+        "Level":  56,
+        "Round":  7,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red items."
+    },
+    {
+        "Level":  6,
+        "Round":  1,
+        "SolutionsPrompt":  "How many blue shapes?",
+        "WorkspacePrompt":  "How many blue icons?"
+    },
+    {
+        "Level":  6,
+        "Round":  2,
+        "SolutionsPrompt":  "How many red shapes?",
+        "WorkspacePrompt":  "How many red icons?"
+    },
+    {
+        "Level":  6,
+        "Round":  4,
+        "SolutionsPrompt":  "Count the green shapes.",
+        "WorkspacePrompt":  "Count the green icons."
+    },
+    {
+        "Level":  6,
+        "Round":  5,
+        "SolutionsPrompt":  "Count all shapes.",
+        "WorkspacePrompt":  "Count all icons."
+    },
+    {
+        "Level":  6,
+        "Round":  6,
+        "SolutionsPrompt":  "How many total shapes?",
+        "WorkspacePrompt":  "How many total icons?"
+    },
+    {
+        "Level":  6,
+        "Round":  9,
+        "SolutionsPrompt":  "How many total shapes?",
+        "WorkspacePrompt":  "How many total icons?"
+    },
+    {
+        "Level":  60,
+        "Round":  8,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red objects."
+    },
+    {
+        "Level":  91,
+        "Round":  5,
+        "SolutionsPrompt":  "Count the blue shapes.",
+        "WorkspacePrompt":  "Count the blue items."
+    },
+    {
+        "Level":  91,
+        "Round":  6,
+        "SolutionsPrompt":  "Ignore all blue shapes.",
+        "WorkspacePrompt":  "Ignore all blue items."
+    },
+    {
+        "Level":  92,
+        "Round":  6,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red icons."
+    },
+    {
+        "Level":  93,
+        "Round":  6,
+        "SolutionsPrompt":  "Count the blue shapes.",
+        "WorkspacePrompt":  "Count the blue objects."
+    },
+    {
+        "Level":  90,
+        "Round":  5,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red objects."
+    },
+    {
+        "Level":  98,
+        "Round":  7,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red items."
+    },
+    {
+        "Level":  99,
+        "Round":  8,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red icons."
+    },
+    {
+        "Level":  94,
+        "Round":  4,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red items."
+    },
+    {
+        "Level":  95,
+        "Round":  3,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red icons."
+    },
+    {
+        "Level":  96,
+        "Round":  4,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red objects."
+    },
+    {
+        "Level":  96,
+        "Round":  5,
+        "SolutionsPrompt":  "Ignore all red shapes.",
+        "WorkspacePrompt":  "Ignore all red objects."
+    },
+    {
+        "Level":  78,
+        "Round":  5,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red icons."
+    },
+    {
+        "Level":  78,
+        "Round":  6,
+        "SolutionsPrompt":  "All shapes are red.",
+        "WorkspacePrompt":  "All icons are red."
+    },
+    {
+        "Level":  78,
+        "Round":  7,
+        "SolutionsPrompt":  "Count the blue shapes.",
+        "WorkspacePrompt":  "Count the blue icons."
+    },
+    {
+        "Level":  23,
+        "Round":  4,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red objects."
+    },
+    {
+        "Level":  23,
+        "Round":  5,
+        "SolutionsPrompt":  "Count the blue shapes.",
+        "WorkspacePrompt":  "Count the blue objects."
+    },
+    {
+        "Level":  23,
+        "Round":  7,
+        "SolutionsPrompt":  "All shapes are red.",
+        "WorkspacePrompt":  "All objects are red."
+    },
+    {
+        "Level":  23,
+        "Round":  8,
+        "SolutionsPrompt":  "Count the blue shapes.",
+        "WorkspacePrompt":  "Count the blue objects."
+    },
+    {
+        "Level":  23,
+        "Round":  9,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red objects."
+    },
+    {
+        "Level":  24,
+        "Round":  2,
+        "SolutionsPrompt":  "Count the black shapes.",
+        "WorkspacePrompt":  "Count the black items."
+    },
+    {
+        "Level":  25,
+        "Round":  7,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red icons."
+    },
+    {
+        "Level":  25,
+        "Round":  8,
+        "SolutionsPrompt":  "Count the blue shapes.",
+        "WorkspacePrompt":  "Count the blue icons."
+    },
+    {
+        "Level":  22,
+        "Round":  7,
+        "SolutionsPrompt":  "Count the green shapes.",
+        "WorkspacePrompt":  "Count the green icons."
+    },
+    {
+        "Level":  3,
+        "Round":  7,
+        "SolutionsPrompt":  "Tap the number of shapes.",
+        "WorkspacePrompt":  "Tap the number of objects."
+    },
+    {
+        "Level":  3,
+        "Round":  8,
+        "SolutionsPrompt":  "How many shapes are there?",
+        "WorkspacePrompt":  "How many objects are there?"
+    },
+    {
+        "Level":  30,
+        "Round":  2,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red items."
+    },
+    {
+        "Level":  30,
+        "Round":  4,
+        "SolutionsPrompt":  "Count the blue shapes.",
+        "WorkspacePrompt":  "Count the blue items."
+    },
+    {
+        "Level":  30,
+        "Round":  7,
+        "SolutionsPrompt":  "Count the green shapes.",
+        "WorkspacePrompt":  "Count the green items."
+    },
+    {
+        "Level":  30,
+        "Round":  10,
+        "SolutionsPrompt":  "Count the total shapes.",
+        "WorkspacePrompt":  "Count the total items."
+    },
+    {
+        "Level":  26,
+        "Round":  7,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red objects."
+    },
+    {
+        "Level":  27,
+        "Round":  2,
+        "SolutionsPrompt":  "Count the blue shapes.",
+        "WorkspacePrompt":  "Count the blue items."
+    },
+    {
+        "Level":  27,
+        "Round":  3,
+        "SolutionsPrompt":  "Ignore all red shapes.",
+        "WorkspacePrompt":  "Ignore all red items."
+    },
+    {
+        "Level":  28,
+        "Round":  2,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red icons."
+    },
+    {
+        "Level":  28,
+        "Round":  4,
+        "SolutionsPrompt":  "Count the green shapes.",
+        "WorkspacePrompt":  "Count the green icons."
+    },
+    {
+        "Level":  28,
+        "Round":  9,
+        "SolutionsPrompt":  "Count the blue shapes.",
+        "WorkspacePrompt":  "Count the blue icons."
+    },
+    {
+        "Level":  1,
+        "Round":  1,
+        "SolutionsPrompt":  "Welcome to the Carnival.\nA single tap acknowledges.",
+        "WorkspacePrompt":  "Tap wisely!\nA single tap acknowledges."
+    },
+    {
+        "Level":  10,
+        "Round":  3,
+        "SolutionsPrompt":  "How many blue shapes?",
+        "WorkspacePrompt":  "How many blue items?"
+    },
+    {
+        "Level":  100,
+        "Round":  7,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red icons."
+    },
+    {
+        "Level":  17,
+        "Round":  2,
+        "SolutionsPrompt":  "Count the black shapes.",
+        "WorkspacePrompt":  "Count the black items."
+    },
+    {
+        "Level":  17,
+        "Round":  3,
+        "SolutionsPrompt":  "Count the green shapes.",
+        "WorkspacePrompt":  "Count the green items."
+    },
+    {
+        "Level":  17,
+        "Round":  7,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red items."
+    },
+    {
+        "Level":  16,
+        "Round":  6,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red objects."
+    },
+    {
+        "Level":  46,
+        "Round":  4,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red objects."
+    },
+    {
+        "Level":  46,
+        "Round":  5,
+        "SolutionsPrompt":  "Count the blue shapes.",
+        "WorkspacePrompt":  "Count the blue objects."
+    },
+    {
+        "Level":  46,
+        "Round":  8,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red objects."
+    },
+    {
+        "Level":  47,
+        "Round":  5,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red items."
+    },
+    {
+        "Level":  47,
+        "Round":  6,
+        "SolutionsPrompt":  "Count the blue shapes.",
+        "WorkspacePrompt":  "Count the blue items."
+    },
+    {
+        "Level":  47,
+        "Round":  8,
+        "SolutionsPrompt":  "Count the green shapes.",
+        "WorkspacePrompt":  "Count the green items."
+    },
+    {
+        "Level":  48,
+        "Round":  5,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red icons."
+    },
+    {
+        "Level":  44,
+        "Round":  2,
+        "SolutionsPrompt":  "Count the total shapes.",
+        "WorkspacePrompt":  "Count the total icons."
+    },
+    {
+        "Level":  44,
+        "Round":  3,
+        "SolutionsPrompt":  "All shapes are stars.",
+        "WorkspacePrompt":  "All icons are stars."
+    },
+    {
+        "Level":  51,
+        "Round":  4,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red objects."
+    },
+    {
+        "Level":  52,
+        "Round":  5,
+        "SolutionsPrompt":  "Count the total shapes.",
+        "WorkspacePrompt":  "Count the total items."
+    },
+    {
+        "Level":  53,
+        "Round":  4,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red icons."
+    },
+    {
+        "Level":  53,
+        "Round":  6,
+        "SolutionsPrompt":  "Ignore all blue shapes.",
+        "WorkspacePrompt":  "Ignore all blue icons."
+    },
+    {
+        "Level":  49,
+        "Round":  6,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red objects."
+    },
+    {
+        "Level":  49,
+        "Round":  7,
+        "SolutionsPrompt":  "Ignore all red shapes.",
+        "WorkspacePrompt":  "Ignore all red objects."
+    },
+    {
+        "Level":  49,
+        "Round":  8,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red objects."
+    },
+    {
+        "Level":  5,
+        "Round":  10,
+        "SolutionsPrompt":  "How many white shapes?",
+        "WorkspacePrompt":  "How many white items?"
+    },
+    {
+        "Level":  50,
+        "Round":  2,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red icons."
+    },
+    {
+        "Level":  50,
+        "Round":  4,
+        "SolutionsPrompt":  "Count the blue shapes.",
+        "WorkspacePrompt":  "Count the blue icons."
+    },
+    {
+        "Level":  50,
+        "Round":  7,
+        "SolutionsPrompt":  "Count the green shapes.",
+        "WorkspacePrompt":  "Count the green icons."
+    },
+    {
+        "Level":  50,
+        "Round":  10,
+        "SolutionsPrompt":  "Count the total shapes.",
+        "WorkspacePrompt":  "Count the total icons."
+    },
+    {
+        "Level":  34,
+        "Round":  2,
+        "SolutionsPrompt":  "Count the total shapes.",
+        "WorkspacePrompt":  "Count the total items."
+    },
+    {
+        "Level":  34,
+        "Round":  4,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red items."
+    },
+    {
+        "Level":  36,
+        "Round":  4,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red icons."
+    },
+    {
+        "Level":  32,
+        "Round":  3,
+        "SolutionsPrompt":  "Ignore all red shapes.",
+        "WorkspacePrompt":  "Ignore all red icons."
+    },
+    {
+        "Level":  32,
+        "Round":  4,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red icons."
+    },
+    {
+        "Level":  32,
+        "Round":  5,
+        "SolutionsPrompt":  "Count the blue shapes.",
+        "WorkspacePrompt":  "Count the blue icons."
+    },
+    {
+        "Level":  33,
+        "Round":  7,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red objects."
+    },
+    {
+        "Level":  4,
+        "Round":  2,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red icons."
+    },
+    {
+        "Level":  4,
+        "Round":  6,
+        "SolutionsPrompt":  "Count the total shapes.",
+        "WorkspacePrompt":  "Count the total icons."
+    },
+    {
+        "Level":  40,
+        "Round":  5,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red objects."
+    },
+    {
+        "Level":  40,
+        "Round":  6,
+        "SolutionsPrompt":  "Count the blue shapes.",
+        "WorkspacePrompt":  "Count the blue objects."
+    },
+    {
+        "Level":  41,
+        "Round":  6,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red items."
+    },
+    {
+        "Level":  41,
+        "Round":  9,
+        "SolutionsPrompt":  "Count the total shapes.",
+        "WorkspacePrompt":  "Count the total items."
+    },
+    {
+        "Level":  37,
+        "Round":  4,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red objects."
+    },
+    {
+        "Level":  38,
+        "Round":  3,
+        "SolutionsPrompt":  "Count the red shapes.",
+        "WorkspacePrompt":  "Count the red items."
+    },
+    {
+        "Level":  38,
+        "Round":  7,
+        "SolutionsPrompt":  "Count the blue shapes.",
+        "WorkspacePrompt":  "Count the blue items."
+    }
+]
